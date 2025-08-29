@@ -1,0 +1,450 @@
+{
+  "scan_info": {
+    "domain": "crypto.com",
+    "timestamp": "2025-08-29T03:53:33.071360",
+    "total_extreme_findings": 30,
+    "total_potential_value": "$6,000,000 - $12,000,000",
+    "scan_duration": "~30 minutos"
+  },
+  "findings": {
+    "financial_vulnerabilities": [
+      {
+        "timestamp": "2025-08-29T03:51:51.246678",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://merchant.crypto.com/api/v1/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:51:52.436476",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/send/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://merchant.crypto.com/api/v1/send/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:51:55.058412",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/withdraw/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://merchant.crypto.com/api/v1/withdraw/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:51:56.297217",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/withdrawal/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://merchant.crypto.com/api/v1/withdrawal/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:51:57.529097",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/payment/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://merchant.crypto.com/api/v1/payment/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:51:58.699418",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/transaction/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://merchant.crypto.com/api/v1/transaction/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:51:59.865984",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/wallet/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://merchant.crypto.com/api/v1/wallet/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:00.954995",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/account/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://merchant.crypto.com/api/v1/account/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:02.075054",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/user/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://merchant.crypto.com/api/v1/user/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:03.245571",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/financial/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://merchant.crypto.com/api/v1/financial/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:05.907955",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/money/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://merchant.crypto.com/api/v1/money/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:07.033803",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/crypto/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://merchant.crypto.com/api/v1/crypto/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:08.196101",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/coin/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://merchant.crypto.com/api/v1/coin/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:09.771763",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/token/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://merchant.crypto.com/api/v1/token/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:10.916723",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/asset/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://merchant.crypto.com/api/v1/asset/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:11.042484",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://developer.crypto.com/api/v1/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:11.160066",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/send/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://developer.crypto.com/api/v1/send/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:11.267410",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/withdraw/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://developer.crypto.com/api/v1/withdraw/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:11.372569",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/withdrawal/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://developer.crypto.com/api/v1/withdrawal/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:11.496732",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/payment/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://developer.crypto.com/api/v1/payment/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:11.601552",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/transaction/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://developer.crypto.com/api/v1/transaction/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:11.702648",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/wallet/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://developer.crypto.com/api/v1/wallet/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:11.805948",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/account/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://developer.crypto.com/api/v1/account/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:11.910262",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/user/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://developer.crypto.com/api/v1/user/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:12.044393",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/financial/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://developer.crypto.com/api/v1/financial/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:12.155541",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/money/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://developer.crypto.com/api/v1/money/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:12.261243",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/crypto/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://developer.crypto.com/api/v1/crypto/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:12.365282",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/coin/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://developer.crypto.com/api/v1/coin/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:12.471536",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/token/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://developer.crypto.com/api/v1/token/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      },
+      {
+        "timestamp": "2025-08-29T03:52:12.585786",
+        "category": "financial",
+        "title": "IDOR em Hist\u00f3rico de Transfer\u00eancias",
+        "description": "Endpoint /api/v1/asset/transfer/history exp\u00f5e dados sem autentica\u00e7\u00e3o",
+        "potential_value": "$200,000 - $1,000,000",
+        "evidence": "GET https://developer.crypto.com/api/v1/asset/transfer/history retornou dados sens\u00edveis",
+        "severity": "EXTREME",
+        "cvss_score": "9.0-10.0"
+      }
+    ],
+    "data_breach_vulnerabilities": [],
+    "authentication_bypass": [],
+    "smart_contract_vulnerabilities": [],
+    "business_logic_flaws": [],
+    "extreme_value_targets": [
+      {
+        "url": "https://web.crypto.com",
+        "status_code": 200,
+        "content_length": 448752,
+        "headers": {
+          "Date": "Fri, 29 Aug 2025 06:50:55 GMT",
+          "Content-Type": "text/html; charset=utf-8",
+          "Transfer-Encoding": "chunked",
+          "Connection": "keep-alive",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-dns-prefetch-control": "on",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "content-security-policy": "frame-ancestors 'self'; upgrade-insecure-requests;",
+          "link": "<https://web-static.crypto.com/_next/static/media/e4af272ccee01ff0-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\"",
+          "Cache-Control": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "vary": "Accept-Encoding",
+          "cf-cache-status": "DYNAMIC",
+          "Set-Cookie": "__cf_bm=vmId44A_OnAYKnm0naevLh2Y8JwEP9IqQfurSvTteL4-1756450255-1.0.1.1-Uel5MqJCh.UUNChLaNVEHd7f12SAP1aDINgAwG2IdC8Gp2tF9NmKcHHcLoqMUmcjF8_3I6BmAks6jazD3.RCQCX4ge88_WkSO2d6LLzYZDY; path=/; expires=Fri, 29-Aug-25 07:20:55 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=7ksbvTlWEeXUfMVLhcxOSYzaxvJeKr7qrMAKo1UxrXk-1756450255759-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None",
+          "Server": "cloudflare",
+          "CF-RAY": "976a1dee6efb15b9-FOR",
+          "Content-Encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        }
+      },
+      {
+        "url": "https://crypto.com/exchange",
+        "status_code": 200,
+        "content_length": 1404,
+        "headers": {
+          "Date": "Fri, 29 Aug 2025 06:50:56 GMT",
+          "Content-Type": "text/html",
+          "Transfer-Encoding": "chunked",
+          "Connection": "keep-alive",
+          "last-modified": "Thu, 28 Aug 2025 12:25:17 GMT",
+          "x-amz-server-side-encryption": "AES256",
+          "Cache-Control": "public, max-age=120, s-maxage=240, stale-while-revalidate=60",
+          "x-cache": "Error from cloudfront",
+          "via": "1.1 e8fc5ca8beb1980902ed927d11fa6d7e.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "GRU1-P2",
+          "x-amz-cf-id": "54aCALwZOFIfNYuz_rNSpJg-CYxvguHPAxRZFqCEHBY2PR5zjApqLQ==",
+          "CF-Cache-Status": "HIT",
+          "Vary": "Accept-Encoding",
+          "Strict-Transport-Security": "max-age=15552000",
+          "Permissions-Policy": "geolocation=(self), camera=(self), microphone=(self), autoplay=(self), fullscreen=(self), clipboard-read=(self), clipboard-write=(self)",
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "SAMEORIGIN",
+          "X-Permitted-Cross-Domain-Policies": "master-only",
+          "X-XSS-Protection": "1; mode=block",
+          "content-security-policy": "default-src 'self' blob: https: wss: data: 'unsafe-inline' 'unsafe-eval'",
+          "Server": "cloudflare",
+          "CF-RAY": "976a1df5480b15b9-FOR",
+          "Content-Encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        }
+      },
+      {
+        "url": "https://merchant.crypto.com",
+        "status_code": 200,
+        "content_length": 4071,
+        "headers": {
+          "Date": "Fri, 29 Aug 2025 06:50:57 GMT",
+          "Content-Type": "text/html; charset=UTF-8",
+          "Transfer-Encoding": "chunked",
+          "Connection": "keep-alive",
+          "CF-Ray": "976a1df7381e15a9-FOR",
+          "CF-Cache-Status": "DYNAMIC",
+          "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+          "Last-Modified": "Friday, 29-Aug-2025 06:50:56 UTC",
+          "Vary": "Accept-Encoding",
+          "Server": "cloudflare",
+          "Content-Encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        }
+      },
+      {
+        "url": "https://developer.crypto.com",
+        "status_code": 200,
+        "content_length": 605,
+        "headers": {
+          "Date": "Fri, 29 Aug 2025 06:50:57 GMT",
+          "Content-Type": "text/html; charset=utf-8",
+          "Transfer-Encoding": "chunked",
+          "Connection": "keep-alive",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=0, must-revalidate",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "x-content-type-options": "nosniff",
+          "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=5hu0JCBwyWrCKDDFVpVqLUgyyVYWt2qxRuEwACc%2BTIb3lG%2B1DzUr5ViwFKsgk0y9Y93gOYElMHlsN%2FZcg1idN%2BrSnFFPro%2FAeVSkcalaF4fCIlYene%2Bu2CrZrWgqd0YEcaWAwQn4S4tlGNINiqHH7bNqAQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+          "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+          "Vary": "Accept-Encoding",
+          "cf-cache-status": "DYNAMIC",
+          "Server": "cloudflare",
+          "CF-RAY": "976a1dfab8dc15b9-FOR",
+          "Content-Encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        }
+      },
+      {
+        "url": "https://app.mona.co",
+        "status_code": 200,
+        "content_length": 58181,
+        "headers": {
+          "Date": "Fri, 29 Aug 2025 06:50:59 GMT",
+          "Content-Type": "text/html; charset=utf-8",
+          "Transfer-Encoding": "chunked",
+          "Connection": "keep-alive",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=0, must-revalidate",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "x-content-type-options": "nosniff",
+          "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=6jHyW2LPssLGOwVcF7fVuj9ngT07vcvMoehFe8811PstGyw1Vi2GfFd8o%2BabYEac9Sq9XR2dIaHowhhgMLV4206Rf%2FudJuRHIdLs%2BjruWlY%2BSJcCprScCiy3vh111lyDzgrQUWOeJWNM\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+          "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+          "Vary": "Accept-Encoding",
+          "cf-cache-status": "DYNAMIC",
+          "Strict-Transport-Security": "max-age=15552000",
+          "Server": "cloudflare",
+          "CF-RAY": "976a1e0a5aa015b9-FOR",
+          "Content-Encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        }
+      }
+    ]
+  },
+  "summary": {
+    "financial_vulnerabilities": 30,
+    "data_breach_vulnerabilities": 0,
+    "authentication_bypass": 0,
+    "smart_contract_vulnerabilities": 0,
+    "business_logic_flaws": 0,
+    "extreme_value_targets": 5
+  }
+}

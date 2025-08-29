@@ -1,0 +1,6 @@
+URL: https://api.crypto.com/v2/public/get-order-book
+Description: API Pública - Order Book
+HTTP Code: 404
+Response Time: 0.407124s
+Response Size: 36 bytes
+Timestamp: 2025-08-29 05:08:48

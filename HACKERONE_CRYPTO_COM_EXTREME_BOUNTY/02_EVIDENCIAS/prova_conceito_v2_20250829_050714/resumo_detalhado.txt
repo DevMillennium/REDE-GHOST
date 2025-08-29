@@ -1,0 +1,125 @@
+PROVA DE CONCEITO - EXTREME BOUNTY CRYPTO.COM (V2)
+==================================================
+Data: 29/08/2025 05:07:51
+Diretório: prova_conceito_v2_20250829_050714
+Versão: 2.0
+
+ARQUIVOS GERADOS:
+-rw-r--r--    1 thyagomesquita  staff  4669 Aug 29 05:07 dados_api_v1_public_instruments.json
+-rw-r--r--    1 thyagomesquita  staff  4669 Aug 29 05:07 dados_api_v1_public_orderbook.json
+-rw-r--r--    1 thyagomesquita  staff  4669 Aug 29 05:07 dados_api_v1_public_ticker.json
+-rw-r--r--    1 thyagomesquita  staff  4669 Aug 29 05:07 dados_api_v1_public_time.json
+-rw-r--r--    1 thyagomesquita  staff  4669 Aug 29 05:07 dados_api_v1_public_trades.json
+-rw-r--r--    1 thyagomesquita  staff  4669 Aug 29 05:07 dados_balance.json
+-rw-r--r--    1 thyagomesquita  staff  4669 Aug 29 05:07 dados_orders.json
+-rw-r--r--    1 thyagomesquita  staff  4669 Aug 29 05:07 dados_transfer_history.json
+-rw-r--r--    1 thyagomesquita  staff  4669 Aug 29 05:07 dados_user_data.json
+-rw-r--r--    1 thyagomesquita  staff  4669 Aug 29 05:07 dados_withdraw_history.json
+-rw-r--r--    1 thyagomesquita  staff  1889 Aug 29 05:07 relatorio_executivo.md
+-rw-r--r--    1 thyagomesquita  staff     0 Aug 29 05:07 resumo_detalhado.txt
+-rw-r--r--    1 thyagomesquita  staff   195 Aug 29 05:07 status_api_v1_public_instruments.txt
+-rw-r--r--    1 thyagomesquita  staff   191 Aug 29 05:07 status_api_v1_public_orderbook.txt
+-rw-r--r--    1 thyagomesquita  staff   185 Aug 29 05:07 status_api_v1_public_ticker.txt
+-rw-r--r--    1 thyagomesquita  staff   181 Aug 29 05:07 status_api_v1_public_time.txt
+-rw-r--r--    1 thyagomesquita  staff   185 Aug 29 05:07 status_api_v1_public_trades.txt
+-rw-r--r--    1 thyagomesquita  staff   167 Aug 29 05:07 status_balance.txt
+-rw-r--r--    1 thyagomesquita  staff   165 Aug 29 05:07 status_orders.txt
+-rw-r--r--    1 thyagomesquita  staff   185 Aug 29 05:07 status_transfer_history.txt
+-rw-r--r--    1 thyagomesquita  staff   171 Aug 29 05:07 status_user_data.txt
+-rw-r--r--    1 thyagomesquita  staff   185 Aug 29 05:07 status_withdraw_history.txt
+
+STATUS DETALHADO DOS TESTES:
+
+=== status_api_v1_public_instruments ===
+Endpoint: api/v1/public/instruments
+Description: Endpoint Alternativo - api/v1/public/instruments
+HTTP Code: 200
+Response Time: 3.197075s
+Response Size: 4669 bytes
+Timestamp: 2025-08-29 05:07:44
+
+=== status_api_v1_public_orderbook ===
+Endpoint: api/v1/public/orderbook
+Description: Endpoint Alternativo - api/v1/public/orderbook
+HTTP Code: 200
+Response Time: 3.195227s
+Response Size: 4669 bytes
+Timestamp: 2025-08-29 05:07:34
+
+=== status_api_v1_public_ticker ===
+Endpoint: api/v1/public/ticker
+Description: Endpoint Alternativo - api/v1/public/ticker
+HTTP Code: 200
+Response Time: 3.246077s
+Response Size: 4669 bytes
+Timestamp: 2025-08-29 05:07:28
+
+=== status_api_v1_public_time ===
+Endpoint: api/v1/public/time
+Description: Endpoint Alternativo - api/v1/public/time
+HTTP Code: 200
+Response Time: 3.092072s
+Response Size: 4669 bytes
+Timestamp: 2025-08-29 05:07:49
+
+=== status_api_v1_public_trades ===
+Endpoint: api/v1/public/trades
+Description: Endpoint Alternativo - api/v1/public/trades
+HTTP Code: 200
+Response Time: 2.954771s
+Response Size: 4669 bytes
+Timestamp: 2025-08-29 05:07:39
+
+=== status_balance ===
+Endpoint: balance
+Description: Vulnerabilidade 3 - Balance API (IDOR)
+HTTP Code: 200
+Response Time: 0.080232s
+Response Size: 4669 bytes
+Timestamp: 2025-08-29 05:07:19
+
+=== status_orders ===
+Endpoint: orders
+Description: Vulnerabilidade 4 - Orders API (IDOR)
+HTTP Code: 200
+Response Time: 0.075247s
+Response Size: 4669 bytes
+Timestamp: 2025-08-29 05:07:21
+
+=== status_transfer_history ===
+Endpoint: transfer/history
+Description: Vulnerabilidade 1 - Transfer History API (IDOR)
+HTTP Code: 200
+Response Time: 0.083536s
+Response Size: 4669 bytes
+Timestamp: 2025-08-29 05:07:15
+
+=== status_user_data ===
+Endpoint: user/data
+Description: Vulnerabilidade 5 - User Data API (IDOR)
+HTTP Code: 200
+Response Time: 0.069398s
+Response Size: 4669 bytes
+Timestamp: 2025-08-29 05:07:23
+
+=== status_withdraw_history ===
+Endpoint: withdraw/history
+Description: Vulnerabilidade 2 - Withdraw History API (IDOR)
+HTTP Code: 200
+Response Time: 0.074574s
+Response Size: 4669 bytes
+Timestamp: 2025-08-29 05:07:17
+
+TAMANHOS DOS ARQUIVOS DE DADOS:
+dados_api_v1_public_instruments.json:     4669 bytes
+dados_api_v1_public_orderbook.json:     4669 bytes
+dados_api_v1_public_ticker.json:     4669 bytes
+dados_api_v1_public_time.json:     4669 bytes
+dados_api_v1_public_trades.json:     4669 bytes
+dados_balance.json:     4669 bytes
+dados_orders.json:     4669 bytes
+dados_transfer_history.json:     4669 bytes
+dados_user_data.json:     4669 bytes
+dados_withdraw_history.json:     4669 bytes
+
+PRONTO PARA ENVIO E ANÁLISE!

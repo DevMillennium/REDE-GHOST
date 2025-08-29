@@ -1,0 +1,6 @@
+Endpoint: api/v1/public/instruments
+Description: Endpoint Alternativo - api/v1/public/instruments
+HTTP Code: 200
+Response Time: 3.197075s
+Response Size: 4669 bytes
+Timestamp: 2025-08-29 05:07:44

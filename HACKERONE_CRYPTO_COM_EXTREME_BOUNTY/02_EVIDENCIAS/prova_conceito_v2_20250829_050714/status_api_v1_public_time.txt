@@ -1,0 +1,6 @@
+Endpoint: api/v1/public/time
+Description: Endpoint Alternativo - api/v1/public/time
+HTTP Code: 200
+Response Time: 3.092072s
+Response Size: 4669 bytes
+Timestamp: 2025-08-29 05:07:49

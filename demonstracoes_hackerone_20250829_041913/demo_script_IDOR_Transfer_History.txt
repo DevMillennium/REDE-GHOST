@@ -1,0 +1,39 @@
+# 🎬 Script de Demonstração - IDOR_Transfer_History
+# ======================================
+
+## 📋 Preparação (30 segundos)
+1. Abrir terminal
+2. Navegar para diretório do projeto
+3. Preparar comandos de teste
+
+## 🎯 Demonstração Principal (2 minutos)
+
+### Passo 1: Verificar Endpoint (30 segundos)
+```bash
+# Teste de conectividade
+curl -I "https://crypto.com/api/v1/transfer/history"
+```
+
+### Passo 2: Acesso sem Autenticação (45 segundos)
+```bash
+# Tentativa de acesso direto
+curl -s "https://crypto.com/api/v1/transfer/history" \
+  -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" \
+  -H "Accept: application/json"
+```
+
+### Passo 3: Análise da Resposta (45 segundos)
+- Mostrar status code 200
+- Demonstrar dados expostos
+- Explicar impacto da vulnerabilidade
+
+## 🔐 Responsável Disclosure (30 segundos)
+- Explicar que é teste autorizado
+- Mostrar que não há dados sensíveis reais
+- Demonstrar processo ético
+
+## 📝 Pontos Importantes:
+- ✅ Não mostrar dados reais de usuários
+- ✅ Explicar contexto de bug bounty
+- ✅ Demonstrar processo ético
+- ✅ Mostrar evidência técnica clara

@@ -1,0 +1,8 @@
+{
+  "id" : -1,
+  "method" : "public/get-trades",
+  "code" : 0,
+  "result" : {
+    "data" : [ ]
+  }
+}

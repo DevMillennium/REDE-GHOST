@@ -1,0 +1,601 @@
+{
+  "timestamp": "2025-08-29T06:27:07.893526",
+  "summary": {
+    "total_records": 25,
+    "vulnerabilities_detected": 13,
+    "anomalies_detected": 3,
+    "clusters_identified": 3,
+    "risk_score": 100.0
+  },
+  "vulnerability_analysis": {
+    "high_risk_endpoints": [
+      {
+        "type": "status_log",
+        "size": 171,
+        "has_result": 0.0,
+        "has_data": 0.0,
+        "data_length": 0.0,
+        "response_keys": 0.0,
+        "is_vulnerable": 1,
+        "has_200": 1.0,
+        "has_404": 0.0,
+        "has_301": 0.0,
+        "has_error": 0.0,
+        "response_time": 0.069398,
+        "anomaly_score": 0.10511569234417445,
+        "is_anomaly": false,
+        "vulnerability_probability": 0.94,
+        "predicted_vulnerable": 1,
+        "cluster": 0
+      },
+      {
+        "type": "status_log",
+        "size": 185,
+        "has_result": 0.0,
+        "has_data": 0.0,
+        "data_length": 0.0,
+        "response_keys": 0.0,
+        "is_vulnerable": 1,
+        "has_200": 1.0,
+        "has_404": 0.0,
+        "has_301": 0.0,
+        "has_error": 0.0,
+        "response_time": 3.246077,
+        "anomaly_score": 0.11299903166764325,
+        "is_anomaly": false,
+        "vulnerability_probability": 1.0,
+        "predicted_vulnerable": 1,
+        "cluster": 0
+      },
+      {
+        "type": "status_log",
+        "size": 185,
+        "has_result": 0.0,
+        "has_data": 0.0,
+        "data_length": 0.0,
+        "response_keys": 0.0,
+        "is_vulnerable": 1,
+        "has_200": 1.0,
+        "has_404": 0.0,
+        "has_301": 0.0,
+        "has_error": 0.0,
+        "response_time": 2.954771,
+        "anomaly_score": 0.11921304738827815,
+        "is_anomaly": false,
+        "vulnerability_probability": 1.0,
+        "predicted_vulnerable": 1,
+        "cluster": 0
+      },
+      {
+        "type": "status_log",
+        "size": 185,
+        "has_result": 0.0,
+        "has_data": 0.0,
+        "data_length": 0.0,
+        "response_keys": 0.0,
+        "is_vulnerable": 1,
+        "has_200": 1.0,
+        "has_404": 0.0,
+        "has_301": 0.0,
+        "has_error": 0.0,
+        "response_time": 0.074574,
+        "anomaly_score": 0.13320578635791647,
+        "is_anomaly": false,
+        "vulnerability_probability": 0.99,
+        "predicted_vulnerable": 1,
+        "cluster": 0
+      },
+      {
+        "type": "status_log",
+        "size": 165,
+        "has_result": 0.0,
+        "has_data": 0.0,
+        "data_length": 0.0,
+        "response_keys": 0.0,
+        "is_vulnerable": 1,
+        "has_200": 1.0,
+        "has_404": 0.0,
+        "has_301": 0.0,
+        "has_error": 0.0,
+        "response_time": 0.075247,
+        "anomaly_score": 0.08555775349545536,
+        "is_anomaly": false,
+        "vulnerability_probability": 1.0,
+        "predicted_vulnerable": 1,
+        "cluster": 0
+      },
+      {
+        "type": "status_log",
+        "size": 195,
+        "has_result": 0.0,
+        "has_data": 0.0,
+        "data_length": 0.0,
+        "response_keys": 0.0,
+        "is_vulnerable": 1,
+        "has_200": 1.0,
+        "has_404": 0.0,
+        "has_301": 0.0,
+        "has_error": 0.0,
+        "response_time": 3.197075,
+        "anomaly_score": 0.06120645252415313,
+        "is_anomaly": false,
+        "vulnerability_probability": 0.98,
+        "predicted_vulnerable": 1,
+        "cluster": 0
+      },
+      {
+        "type": "status_log",
+        "size": 167,
+        "has_result": 0.0,
+        "has_data": 0.0,
+        "data_length": 0.0,
+        "response_keys": 0.0,
+        "is_vulnerable": 1,
+        "has_200": 1.0,
+        "has_404": 0.0,
+        "has_301": 0.0,
+        "has_error": 0.0,
+        "response_time": 0.080232,
+        "anomaly_score": 0.10092294552406261,
+        "is_anomaly": false,
+        "vulnerability_probability": 1.0,
+        "predicted_vulnerable": 1,
+        "cluster": 0
+      },
+      {
+        "type": "status_log",
+        "size": 191,
+        "has_result": 0.0,
+        "has_data": 0.0,
+        "data_length": 0.0,
+        "response_keys": 0.0,
+        "is_vulnerable": 1,
+        "has_200": 1.0,
+        "has_404": 0.0,
+        "has_301": 0.0,
+        "has_error": 0.0,
+        "response_time": 3.195227,
+        "anomaly_score": 0.10028406284235858,
+        "is_anomaly": false,
+        "vulnerability_probability": 0.97,
+        "predicted_vulnerable": 1,
+        "cluster": 0
+      },
+      {
+        "type": "status_log",
+        "size": 181,
+        "has_result": 0.0,
+        "has_data": 0.0,
+        "data_length": 0.0,
+        "response_keys": 0.0,
+        "is_vulnerable": 1,
+        "has_200": 1.0,
+        "has_404": 0.0,
+        "has_301": 0.0,
+        "has_error": 0.0,
+        "response_time": 3.092072,
+        "anomaly_score": 0.09915859178341746,
+        "is_anomaly": false,
+        "vulnerability_probability": 0.99,
+        "predicted_vulnerable": 1,
+        "cluster": 0
+      },
+      {
+        "type": "status_log",
+        "size": 185,
+        "has_result": 0.0,
+        "has_data": 0.0,
+        "data_length": 0.0,
+        "response_keys": 0.0,
+        "is_vulnerable": 1,
+        "has_200": 1.0,
+        "has_404": 0.0,
+        "has_301": 0.0,
+        "has_error": 0.0,
+        "response_time": 0.083536,
+        "anomaly_score": 0.13208205394149491,
+        "is_anomaly": false,
+        "vulnerability_probability": 1.0,
+        "predicted_vulnerable": 1,
+        "cluster": 0
+      },
+      {
+        "type": "status_log",
+        "size": 178,
+        "has_result": 0.0,
+        "has_data": 0.0,
+        "data_length": 0.0,
+        "response_keys": 0.0,
+        "is_vulnerable": 1,
+        "has_200": 1.0,
+        "has_404": 0.0,
+        "has_301": 0.0,
+        "has_error": 0.0,
+        "response_time": 0.35073,
+        "anomaly_score": 0.1002962148413079,
+        "is_anomaly": false,
+        "vulnerability_probability": 0.99,
+        "predicted_vulnerable": 1,
+        "cluster": 0
+      },
+      {
+        "type": "status_log",
+        "size": 182,
+        "has_result": 0.0,
+        "has_data": 0.0,
+        "data_length": 0.0,
+        "response_keys": 0.0,
+        "is_vulnerable": 1,
+        "has_200": 1.0,
+        "has_404": 0.0,
+        "has_301": 0.0,
+        "has_error": 0.0,
+        "response_time": 2.166605,
+        "anomaly_score": 0.08995793920489531,
+        "is_anomaly": false,
+        "vulnerability_probability": 0.98,
+        "predicted_vulnerable": 1,
+        "cluster": 0
+      }
+    ],
+    "anomalous_patterns": [
+      {
+        "type": "api_public",
+        "size": 157668,
+        "has_result": 1.0,
+        "has_data": 0.0,
+        "data_length": 866.0,
+        "response_keys": 4.0,
+        "is_vulnerable": 1,
+        "has_200": 0.0,
+        "has_404": 0.0,
+        "has_301": 0.0,
+        "has_error": 0.0,
+        "response_time": 0.0,
+        "anomaly_score": -0.22531578281523046,
+        "is_anomaly": true,
+        "vulnerability_probability": 0.66,
+        "predicted_vulnerable": 1,
+        "cluster": 2
+      },
+      {
+        "type": "status_log",
+        "size": 186,
+        "has_result": 0.0,
+        "has_data": 0.0,
+        "data_length": 0.0,
+        "response_keys": 0.0,
+        "is_vulnerable": 0,
+        "has_200": 0.0,
+        "has_404": 1.0,
+        "has_301": 0.0,
+        "has_error": 0.0,
+        "response_time": 0.407124,
+        "anomaly_score": -0.0051060380520107085,
+        "is_anomaly": true,
+        "vulnerability_probability": 0.07,
+        "predicted_vulnerable": 0,
+        "cluster": 1
+      },
+      {
+        "type": "status_log",
+        "size": 181,
+        "has_result": 0.0,
+        "has_data": 0.0,
+        "data_length": 0.0,
+        "response_keys": 0.0,
+        "is_vulnerable": 0,
+        "has_200": 0.0,
+        "has_404": 1.0,
+        "has_301": 0.0,
+        "has_error": 0.0,
+        "response_time": 0.098067,
+        "anomaly_score": -0.012865084340278887,
+        "is_anomaly": true,
+        "vulnerability_probability": 0.04,
+        "predicted_vulnerable": 0,
+        "cluster": 1
+      }
+    ]
+  },
+  "financial_analysis": {
+    "total_pairs": 866,
+    "total_volume": 5725700623.760002,
+    "high_value_pairs": [
+      {
+        "pair": "ETH_USDT",
+        "volume": 480577399.06,
+        "price": "4385.27"
+      },
+      {
+        "pair": "ADAUSD-PERP",
+        "volume": 2001674.64,
+        "price": "0.82808"
+      },
+      {
+        "pair": "LTC_USDT",
+        "volume": 1847730.79,
+        "price": "110.321"
+      },
+      {
+        "pair": "DOT_USD",
+        "volume": 1772060.64,
+        "price": "3.8114"
+      },
+      {
+        "pair": "LION_USD",
+        "volume": 3775034.82,
+        "price": "0.022771"
+      },
+      {
+        "pair": "BTC_USD",
+        "volume": 880052454.87,
+        "price": "110140.26"
+      },
+      {
+        "pair": "ETH_BTC",
+        "volume": 9757249.74,
+        "price": "0.039820"
+      },
+      {
+        "pair": "LINK_USD",
+        "volume": 20472364.15,
+        "price": "23.483"
+      },
+      {
+        "pair": "ETHUSD-PERP",
+        "volume": 561165006.38,
+        "price": "4385.70"
+      },
+      {
+        "pair": "CRO_BTC",
+        "volume": 8776277.12,
+        "price": "0.0000026906"
+      },
+      {
+        "pair": "SOLUSD-PERP",
+        "volume": 166583969.79,
+        "price": "208.73"
+      },
+      {
+        "pair": "BTCUSD-PERP",
+        "volume": 1382172809.63,
+        "price": "110127.6"
+      },
+      {
+        "pair": "DOGE_USDT",
+        "volume": 4973817.81,
+        "price": "0.214610"
+      },
+      {
+        "pair": "PUMPUSD-PERP",
+        "volume": 1302051.47,
+        "price": "0.0032522"
+      },
+      {
+        "pair": "XRP_USDT",
+        "volume": 34003750.61,
+        "price": "2.8710"
+      },
+      {
+        "pair": "BTC_USDT",
+        "volume": 553395049.04,
+        "price": "110132.00"
+      },
+      {
+        "pair": "XRP_USD",
+        "volume": 72840595.99,
+        "price": "2.8718"
+      },
+      {
+        "pair": "BTC_EUR",
+        "volume": 1648700.77,
+        "price": "94378.35"
+      },
+      {
+        "pair": "ARB_USD",
+        "volume": 1105892.43,
+        "price": "0.4972"
+      },
+      {
+        "pair": "PYTH_USDT",
+        "volume": 1107025.94,
+        "price": "0.21111"
+      },
+      {
+        "pair": "XRPUSD-PERP",
+        "volume": 74486859.48,
+        "price": "2.8716"
+      },
+      {
+        "pair": "ADA_USDT",
+        "volume": 3720648.09,
+        "price": "0.82771"
+      },
+      {
+        "pair": "TRUMP_USDT",
+        "volume": 1756187.17,
+        "price": "8.360"
+      },
+      {
+        "pair": "SOL_BTC",
+        "volume": 1238442.95,
+        "price": "0.0018956"
+      },
+      {
+        "pair": "PEPEUSD-PERP",
+        "volume": 1238632.15,
+        "price": "0.000009832"
+      },
+      {
+        "pair": "ADA_USD",
+        "volume": 7718019.93,
+        "price": "0.82810"
+      },
+      {
+        "pair": "EUR_USDT",
+        "volume": 2038969.75,
+        "price": "1.16712"
+      },
+      {
+        "pair": "SHIB_USD",
+        "volume": 1029809.44,
+        "price": "0.000012248"
+      },
+      {
+        "pair": "LINKUSD-PERP",
+        "volume": 21034439.5,
+        "price": "23.482"
+      },
+      {
+        "pair": "CROUSD-PERP",
+        "volume": 34076262.06,
+        "price": "0.29645"
+      },
+      {
+        "pair": "USDT_USD",
+        "volume": 2903765.1,
+        "price": "1.00023"
+      },
+      {
+        "pair": "CRO_USD",
+        "volume": 231372493.19,
+        "price": "0.29651"
+      },
+      {
+        "pair": "LINK_USDT",
+        "volume": 7119659.4,
+        "price": "23.492"
+      },
+      {
+        "pair": "ETH_USD",
+        "volume": 730157854.72,
+        "price": "4386.18"
+      },
+      {
+        "pair": "CRO_USDT",
+        "volume": 59390492.43,
+        "price": "0.29613"
+      },
+      {
+        "pair": "DOT_USDT",
+        "volume": 2182762.59,
+        "price": "3.8116"
+      },
+      {
+        "pair": "ETH_CRO",
+        "volume": 2900818.56,
+        "price": "14791"
+      },
+      {
+        "pair": "AVAX_USD",
+        "volume": 1829888.13,
+        "price": "24.060"
+      },
+      {
+        "pair": "ETH_EUR",
+        "volume": 1760513.47,
+        "price": "3757.55"
+      },
+      {
+        "pair": "PYTH_USD",
+        "volume": 2632761.13,
+        "price": "0.21090"
+      },
+      {
+        "pair": "DOGEUSD-PERP",
+        "volume": 6381851.92,
+        "price": "0.214689"
+      },
+      {
+        "pair": "SOL_USD",
+        "volume": 213027996.96,
+        "price": "208.69"
+      },
+      {
+        "pair": "XLM_USD",
+        "volume": 1753436.78,
+        "price": "0.36575"
+      },
+      {
+        "pair": "TRUMP_USD",
+        "volume": 1888022.6,
+        "price": "8.359"
+      },
+      {
+        "pair": "AVAX_USDT",
+        "volume": 2891074.78,
+        "price": "24.062"
+      },
+      {
+        "pair": "LTC_USD",
+        "volume": 1660371.31,
+        "price": "110.323"
+      },
+      {
+        "pair": "ARB_USDT",
+        "volume": 1046768.31,
+        "price": "0.4971"
+      },
+      {
+        "pair": "DOGE_USD",
+        "volume": 5541746.3,
+        "price": "0.214637"
+      },
+      {
+        "pair": "VVS_USD",
+        "volume": 3317038.2,
+        "price": "0.0000061975"
+      },
+      {
+        "pair": "SUI_USD",
+        "volume": 3257289.77,
+        "price": "3.35286"
+      },
+      {
+        "pair": "LTCUSD-PERP",
+        "volume": 1642517.83,
+        "price": "110.375"
+      },
+      {
+        "pair": "SOL_USDT",
+        "volume": 54471352.79,
+        "price": "208.64"
+      },
+      {
+        "pair": "HBAR_USD",
+        "volume": 1919384.62,
+        "price": "0.231852"
+      },
+      {
+        "pair": "AVAXUSD-PERP",
+        "volume": 1363299.72,
+        "price": "24.038"
+      }
+    ],
+    "vulnerable_endpoints": [],
+    "risk_score": 100.0
+  },
+  "recommendations": [
+    {
+      "type": "security",
+      "priority": "high",
+      "description": "Identificadas 13 vulnerabilidades potenciais que requerem investigação imediata"
+    },
+    {
+      "type": "monitoring",
+      "priority": "medium",
+      "description": "Detectados 3 padrões anômalos que merecem atenção"
+    },
+    {
+      "type": "financial",
+      "priority": "high",
+      "description": "Alto risco financeiro detectado (Score: 100.0%) - Priorizar análise"
+    },
+    {
+      "type": "general",
+      "priority": "medium",
+      "description": "Implementar monitoramento contínuo dos endpoints identificados"
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+# 💰 Análise de Impacto Financeiro - crypto.com
+
+## 📊 Resumo Executivo
+
+**Data:** 29/08/2025 03:26:07  
+**Domínio:** crypto.com  
+**Análise:** Impacto Financeiro  
+
+## 🎯 Cenários de Alto Impacto
+
+### 1. **Transferência Não Autorizada de Fundos**
+- **Potencial:** $100,000 - $2,000,000
+- **Cenário:** Bypass de autenticação em APIs de transferência
+- **Impacto:** Perda direta de fundos de usuários
+
+### 2. **Manipulação de Preços**
+- **Potencial:** $50,000 - $1,000,000
+- **Cenário:** Vulnerabilidade em APIs de trading
+- **Impacto:** Manipulação de preços de criptomoedas
+
+### 3. **Vazamento de Dados PII**
+- **Potencial:** $100,000 - $2,000,000
+- **Cenário:** SQL Injection em dados de usuários
+- **Impacto:** Exposição massiva de dados pessoais
+
+### 4. **Bypass de KYC/AML**
+- **Potencial:** $25,000 - $500,000
+- **Cenário:** Vulnerabilidade em processo de verificação
+- **Impacto:** Contas não verificadas com acesso completo
+
+## 🔍 Endpoints Críticos Identificados
+
+### URLs Ativas:
+- http://11956423.news.crypto.com
+- https://amybot.crypto.com
+- https://aurora-product-news.crypto.com
+- https://aurora-glossary.crypto.com
+- http://11956423.serviceinfo.crypto.com
+- https://aurora-page-data.crypto.com
+- https://aurora-university.crypto.com
+- https://aurora-converter.crypto.com
+- https://be-mkt-api.crypto.com
+- https://chain.crypto.com
+- https://cmsbe.crypto.com
+- https://blog-content-hub.crypto.com
+- https://case.crypto.com
+- https://bitcoin-halving.crypto.com
+- https://constellation-api.crypto.com
+- https://bitcoin-revamp.crypto.com
+- https://bimi.crypto.com
+- https://art.crypto.com
+- https://blog.crypto.com
+- https://chain-explorer.crypto.com
+- https://coin-price-live-chart-api-sse-auth.crypto.com
+- https://cmsfe.crypto.com
+- https://case2.crypto.com
+- https://constellation.crypto.com
+- https://ads.crypto.com
+- https://counciltest.crypto.com
+- https://api.crypto.com
+- https://authws.crypto.com
+- https://aa1715-web.crypto.com
+- https://app-api.nft.crypto.com
+- https://constellation.dprd.crypto.com
+- https://aa1715-api.crypto.com
+- https://crypto-fiat-vendor-gateway.crypto.com
+- https://alfred-gateway.crypto.com
+- https://aurora-r2.crypto.com
+- https://crypto-card-api.crypto.com
+- https://auth-x.crypto.com
+- https://click.crypto.com
+- https://crypto-reward-admin-panel.crypto.com
+- https://auth.crypto.com
+- https://crypto-payment-gateway-api.crypto.com
+- https://coin-price-cfd-live-chart-api-sse.crypto.com
+- https://ablink.news.crypto.com
+- https://crypto-reward-admin-panel-api.crypto.com
+- https://black-cat.crypto.com
+- https://api.nft.crypto.com
+- https://crypto-token-price-engine.crypto.com
+- https://ai-agent-sdk-docs.crypto.com
+- https://deriv-admin-gateway-mm.crypto.com
+- https://coin-price-price-ladder-api-sse-auth.crypto.com
+- https://coin-price-sse-auth.crypto.com
+- https://ablink.serviceinfo.crypto.com
+- https://deriv-internal-ui-api.crypto.com
+- https://deriv-entitlements.crypto.com
+- https://blinks.crypto.com
+- https://deriv-internal-ui.crypto.com
+- https://crypto-nft-bridge-api.crypto.com
+- https://crypto-coin-info-api.crypto.com
+- https://cql.crypto.com
+- https://auth.custody.crypto.com
+- https://callyourshot.crypto.com
+- https://deriv-mm-internal-ui-api.crypto.com
+- https://deriv-mm-amps.crypto.com
+- https://crypto-wrapped-campaign-api.crypto.com
+- https://deriv-option-mm-gateway.crypto.com
+- https://deriv-product-gateway.crypto.com
+- https://deriv-trading-ui.crypto.com
+- https://crypto-sentiment-api.crypto.com
+- https://deriv-api.crypto.com
+- https://deriv-app-stream.crypto.com
+- https://cs-automation.crypto.com
+- https://deriv-tradingrisk-gateway.crypto.com
+- https://defi-api.crypto.com
+- https://auth.tax.crypto.com
+- https://developer.crypto.com
+- https://doc.crypto.com
+- https://dprd-verifyvasp-hkg.crypto.com
+- https://document-hub.crypto.com
+- https://dt.crypto.com
+- https://deriv-web-api.crypto.com
+- https://eupon9fi3c.crypto.com
+- https://deriv-web-stream.crypto.com
+- https://aa1715-kline.crypto.com
+- https://eks-general-uapi-ext.crypto.com
+- https://download.crypto.com
+- https://deriv-stream.crypto.com
+- https://exchange-internal.crypto.com
+- https://email.aws.ap-southeast-1.stag.links.crypto.com
+- https://crypto-i2c-core-api.crypto.com
+- https://exchange.crypto.com
+- https://crypto-pay-shop-directory-assets.crypto.com
+- https://exchange-data-reserve.crypto.com
+- https://exchange-fe.crypto.com
+- https://fiatway.crypto.com
+- https://developer-api.crypto.com
+- https://council.crypto.com
+- https://chat.crypto.com
+- https://cs.crypto.com
+- https://4a-audit-api.crypto.com
+- https://exchange-nts.crypto.com
+- https://global.xf.crypto.com
+- https://hk2.xf.crypto.com
+- https://hk.xf.crypto.com
+- http://help.mco.crypto.com
+- https://crypto-quicksight-dashboard-embed-url.crypto.com
+- https://fe-mkt-api.crypto.com
+- https://incident.crypto.com
+- https://apro-ncw-api-mass-token.crypto.com
+- https://apro-docsh.crypto.com
+- https://g-163v7gw.crypto.com
+- https://itsupport.crypto.com
+- https://hk7.xf.crypto.com
+- https://crypto-card-cdn.crypto.com
+- https://fe-how-to-buy.crypto.com
+- https://custody.crypto.com
+- https://j.crypto.com
+- https://institutions.crypto.com
+- https://apro-crypto-earn-banner-assets.crypto.com
+- https://ai-agent-api.crypto.com
+- https://kr-fiatway.crypto.com
+- https://kr-kyc-admin.crypto.com
+- https://api-config.tax.crypto.com
+- https://exchange-docs.crypto.com
+- https://developer-platform-api.crypto.com
+- https://kyc-webhooks.crypto.com
+- https://contenthub-static.crypto.com
+- https://api-config.nft.crypto.com
+- https://kr-kyc-api.crypto.com
+- https://k8s122-uapi-ext.crypto.com
+- https://helper.crypto.com
+- https://help.crypto.com
+- https://kyc-admin.crypto.com
+- https://link-mco.crypto.com
+- https://k8s-ma-critical-ext.crypto.com
+- https://k8s-general-open-gw-ext.crypto.com
+- https://apro-crypto-pay-gift-card-images.crypto.com
+- https://ex-wallet.crypto.com
+- https://media.nft.crypto.com
+- https://exchange-be.crypto.com
+- https://mctest.crypto.com
+- https://eks-general-main-ext.crypto.com
+- https://mco.crypto.com
+- https://k8s122-main-ext.crypto.com
+- https://apro-ncw-api-file.crypto.com
+- https://mpro-content-hub.crypto.com
+- https://fe-university.crypto.com
+- https://mktdata-27225lg4bg.crypto.com
+- https://kyc-api.crypto.com
+- https://nebula.crypto.com
+- https://localization-api.crypto.com
+- https://content-hub-static.crypto.com
+- https://nebula-beta.crypto.com
+- https://crypto-basket-assets.crypto.com
+- https://crypto-wrapped-campaign-assets.crypto.com
+- https://marketing-api.crypto.com
+- https://nft.crypto.com
+- https://missions-api.crypto.com
+- https://mobile-stream.crypto.com
+- https://kyc.crypto.com
+- https://knock-out-assets.crypto.com
+- https://ncw-quantra.crypto.com
+- https://apro-crypto-pay-consumer-assets.crypto.com
+- https://m90-9asfg7f2vx-market-stream.crypto.com
+- https://ma-cashier.crypto.com
+- https://opsaccess.crypto.com
+- https://option-mm-amps-admin.crypto.com
+- https://oauth2.crypto.com
+- https://option-mm-amps.crypto.com
+- https://country-data.crypto.com
+- https://p.crypto.com
+- https://js.crypto.com
+- https://mkt-static.crypto.com
+- https://main-app-zap.crypto.com
+- https://mkt-site-asset.crypto.com
+- https://mobile-api.crypto.com
+- https://limit-order.crypto.com
+- https://pay-connect.crypto.com
+- https://merchant.crypto.com
+- https://pay-api.crypto.com
+- https://kr-news-feed-assets.crypto.com
+- https://pay-node.crypto.com
+- https://pandl-api.crypto.com
+- https://pay-onramp.crypto.com
+- https://pay-docs.crypto.com
+- http://pay-pusher.crypto.com
+- https://pay.crypto.com
+- https://preview-converter.crypto.com
+- https://m0-rgg6q3qj4a-market-stream.crypto.com
+- https://preview-page-data.crypto.com
+- https://paystring.crypto.com
+- https://preview-glossary.crypto.com
+- https://preview.crypto.com
+- https://preview-product-news.crypto.com
+- https://ma-webview.crypto.com
+- https://preview-university.crypto.com
+- https://missions.crypto.com
+- https://price-writer-api.crypto.com
+- https://price-mgmt-api.crypto.com
+- https://platinum.crypto.com
+- https://pay-assets.crypto.com
+- https://privacy.crypto.com
+- https://price-member-api.crypto.com
+- https://price-nft-api.crypto.com
+- https://promo.crypto.com
+- https://mainapp-finance-assets.crypto.com
+- https://pay-shopify-cname.crypto.com
+- https://priora-connector.crypto.com
+- https://price-stream.crypto.com
+- https://risk-amps.crypto.com
+- https://risk-falcon-ui.crypto.com
+- https://profit-and-loss.crypto.com
+- https://public-api.crypto.com
+- https://quote-rate-engine.crypto.com
+- https://risk-gateway.crypto.com
+- https://price-api.crypto.com
+- https://risk-falcon.crypto.com
+- https://securitycenter.crypto.com
+- https://serviceinfo.crypto.com
+- https://product-core.crypto.com
+- https://shop-demo.crypto.com
+- https://shop-directory.crypto.com
+- https://send.crypto.com
+- https://news-feed-assets.crypto.com
+- https://shop-beta.crypto.com
+- https://spending-power-api.crypto.com
+- https://scila.akpro.crypto.com
+- https://payid.crypto.com
+- https://singpass.crypto.com
+- https://prod-alfred-fe.crypto.com
+- https://stream-test.crypto.com
+- https://status.crypto.com
+- https://spending-power-api-v2.crypto.com
+- https://static-send.crypto.com
+- https://stream.crypto.com
+- https://shop.crypto.com
+- https://referral.crypto.com
+- https://price-static.crypto.com
+- https://tpp-tmp.crypto.com
+- https://tpp.crypto.com
+- https://tools.crypto.com
+- https://tradingview-gw.crypto.com
+- https://static2.crypto.com
+- https://uat-content-hub.crypto.com
+- https://upload.crypto.com
+- https://subscribe.crypto.com
+- https://trading-art.crypto.com
+- https://us-content-hub-static.crypto.com
+- https://tpp-static.crypto.com
+- https://static.crypto.com
+- https://us-www.crypto.com
+- https://vault-api.crypto.com
+- https://vault-legacy.crypto.com
+- https://vault.crypto.com
+- https://view-registry.crypto.com
+- https://vvll3tvv0k3r.crypto.com
+- https://wallet-admin.crypto.com
+- https://university-service.crypto.com
+- https://vipbutler.crypto.com
+- https://wallet-asset-dashboard-api.crypto.com
+- https://wallet-analysis.crypto.com
+- https://wallet-asset-dashboard-ui.crypto.com
+- https://url1137.crypto.com
+- https://wallet-nft.crypto.com
+- https://wallet.crypto.com
+- https://web-preview.crypto.com
+- https://user-api-cdn.crypto.com
+- https://tax.crypto.com
+- https://wallet-connect.crypto.com
+- https://wl-group0-fix-gateway.crypto.com
+- https://top-up.crypto.com
+- https://wallet-static.crypto.com
+- https://web-static.crypto.com
+- https://web.crypto.com
+- https://ws.crypto.com
+- https://www.crypto.com
+- https://x-fe.crypto.com
+- https://x-rest-gateway.crypto.com
+- https://xf.crypto.com
+- https://xi-ops-webhooks.crypto.com
+- https://x-transaction-exports.crypto.com
+- https://xi-ops.crypto.com
+- https://xi-telebot-miniapp.crypto.com
+- https://xfdex.crypto.com
+- https://xi-telebot.crypto.com
+- https://xpro-www-int.crypto.com
+- https://xpro-cms.crypto.com
+- https://x-ws-gateway.crypto.com
+- https://xpro-www.crypto.com
+- https://xw2.crypto.com
+- https://xf2.crypto.com
+- https://xpro-s3.crypto.com
+- https://xpro-www-int.dprd.crypto.com
+- https://xpro-www.dprd.crypto.com
+- https://zip.crypto.com
+
+## 📈 Projeção de Renda
+
+### Cenário Conservador:
+- **1 vulnerabilidade crítica/mês:** $5,000 - $40,000
+- **2 vulnerabilidades high/mês:** $1,000 - $10,000
+- **Total mensal:** $6,000 - $50,000
+
+### Cenário Otimista:
+- **1 vulnerabilidade extreme/mês:** $100,000 - $2,000,000
+- **2 vulnerabilidades críticas/mês:** $10,000 - $80,000
+- **Total mensal:** $110,000 - $2,080,000
+
+## 🎯 Próximos Passos
+
+1. **Focar em APIs de alto valor**
+2. **Testar cenários de transferência**
+3. **Analisar smart contracts**
+4. **Verificar lógica de negócio**
+
+---
+
+**Status:** ✅ Análise concluída

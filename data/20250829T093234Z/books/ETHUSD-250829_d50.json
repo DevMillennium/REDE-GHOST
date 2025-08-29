@@ -1,0 +1,14 @@
+{
+  "id" : -1,
+  "method" : "public/get-book",
+  "code" : 0,
+  "result" : {
+    "depth" : 50,
+    "data" : [ {
+      "bids" : [ ],
+      "asks" : [ ],
+      "t" : 1756454399005
+    } ],
+    "instrument_name" : "ETHUSD-250829"
+  }
+}

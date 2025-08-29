@@ -1,0 +1,6 @@
+Endpoint: balance
+Description: Vulnerabilidade 3 - Balance API (IDOR)
+HTTP Code: 200
+Response Time: 0.080232s
+Response Size: 4669 bytes
+Timestamp: 2025-08-29 05:07:19

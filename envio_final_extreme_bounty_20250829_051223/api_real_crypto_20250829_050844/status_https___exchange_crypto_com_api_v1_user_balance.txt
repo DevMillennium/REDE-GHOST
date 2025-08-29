@@ -1,0 +1,6 @@
+URL: https://exchange.crypto.com/api/v1/user/balance
+Description: User Balance (sem auth)
+HTTP Code: 301
+Response Time: 0.085954s
+Response Size: 0 bytes
+Timestamp: 2025-08-29 05:09:01

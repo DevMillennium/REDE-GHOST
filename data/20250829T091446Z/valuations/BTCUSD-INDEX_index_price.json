@@ -1,0 +1,12 @@
+{
+  "id" : -1,
+  "method" : "public/get-valuations",
+  "code" : 0,
+  "result" : {
+    "data" : [ {
+      "v" : "109688.75",
+      "t" : 1756459094000
+    } ],
+    "instrument_name" : "BTCUSD-INDEX"
+  }
+}

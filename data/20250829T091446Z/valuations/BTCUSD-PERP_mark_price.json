@@ -1,0 +1,12 @@
+{
+  "id" : -1,
+  "method" : "public/get-valuations",
+  "code" : 0,
+  "result" : {
+    "data" : [ {
+      "v" : "109692.7",
+      "t" : 1756459096000
+    } ],
+    "instrument_name" : "BTCUSD-PERP"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id" : -1,
+  "method" : "public/get-valuations",
+  "code" : 0,
+  "result" : {
+    "data" : [ {
+      "v" : "4359.12",
+      "t" : 1756463168000
+    } ],
+    "instrument_name" : "ETHUSD-PERP"
+  }
+}

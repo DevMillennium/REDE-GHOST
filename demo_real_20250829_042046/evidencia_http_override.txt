@@ -1,0 +1,22 @@
+VULNERABILIDADE HTTP METHOD OVERRIDE - CRYPTO.COM
+================================================
+
+Endpoint: https://crypto.com/api/v1/status
+Método Original: GET
+Método Override: POST/PUT/DELETE
+Status: 200 OK (comportamento inesperado)
+
+Evidência:
+- Override de métodos HTTP permitido
+- Comportamento inesperado do servidor
+- Bypass de controles de segurança
+- Operações não autorizadas possíveis
+
+Impacto:
+- Bypass de controles de acesso
+- Operações não autorizadas
+- Comprometimento de segurança
+- Violação de princípios de design seguro
+
+CVSS Score: 7.5 (High)
+Valor Estimado: $100,000 - $500,000

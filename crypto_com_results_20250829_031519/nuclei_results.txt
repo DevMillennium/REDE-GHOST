@@ -1,0 +1,4 @@
+[dns-waf-detect:cloudflare] [dns] [info] custody.crypto.com
+[dns-waf-detect:cloudflare] [dns] [info] nebula.crypto.com
+[dns-waf-detect:cloudflare] [dns] [info] nebula-beta.crypto.com
+[dns-waf-detect:cloudflare] [dns] [info] xf.crypto.com

@@ -1,0 +1,6 @@
+{
+  "timestamp" : "2025-08-29T09:16:04.860+00:00",
+  "status" : 404,
+  "error" : "Not Found",
+  "path" : "/v1/public/get-announcements"
+}

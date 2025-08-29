@@ -1,0 +1,12 @@
+{
+  "id" : -1,
+  "method" : "public/get-valuations",
+  "code" : 0,
+  "result" : {
+    "data" : [ {
+      "v" : "4334.37",
+      "t" : 1756459095000
+    } ],
+    "instrument_name" : "ETHUSD-INDEX"
+  }
+}

@@ -1,0 +1,21 @@
+VULNERABILIDADE EXPOSIÇÃO DE DADOS - CRYPTO.COM
+==============================================
+
+Endpoint: https://crypto.com/api/v1/user/data
+Método: GET
+Status: 200 OK (dados expostos)
+
+Evidência:
+- Exposição de dados pessoais sem autenticação
+- Violação de privacidade de usuários
+- Não conformidade com regulamentações
+- Risco de vazamento de informações sensíveis
+
+Impacto:
+- Violação de privacidade
+- Não conformidade com GDPR/LGPD
+- Risco de vazamento de dados
+- Potenciais multas regulatórias
+
+CVSS Score: 8.0 (High)
+Valor Estimado: $300,000 - $1,500,000

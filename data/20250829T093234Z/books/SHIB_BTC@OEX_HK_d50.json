@@ -1,0 +1,14 @@
+{
+  "id" : -1,
+  "method" : "public/get-book",
+  "code" : 0,
+  "result" : {
+    "depth" : 50,
+    "data" : [ {
+      "bids" : [ ],
+      "asks" : [ [ "0.00000000030000", "100000", "1" ] ],
+      "t" : 1746612208948
+    } ],
+    "instrument_name" : "SHIB_BTC@OEX_HK"
+  }
+}

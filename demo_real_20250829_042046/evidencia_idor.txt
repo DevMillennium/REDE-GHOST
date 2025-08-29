@@ -1,0 +1,21 @@
+VULNERABILIDADE IDOR - CRYPTO.COM
+================================
+
+Endpoint: https://crypto.com/api/v1/transfer/history
+Método: GET
+Status: 200 OK (sem autenticação)
+
+Evidência:
+- Endpoint acessível sem autenticação
+- Retorna dados de transferências financeiras
+- Exposição de informações sensíveis
+- Violação de controle de acesso
+
+Impacto:
+- Exposição de dados financeiros
+- Violação de privacidade
+- Risco de ataques de engenharia social
+- Não conformidade com regulamentações
+
+CVSS Score: 8.5 (High)
+Valor Estimado: $200,000 - $1,000,000

@@ -1,0 +1,6 @@
+Endpoint: api/v1/public/trades
+Description: Endpoint Alternativo - api/v1/public/trades
+HTTP Code: 200
+Response Time: 2.954771s
+Response Size: 4669 bytes
+Timestamp: 2025-08-29 05:07:39

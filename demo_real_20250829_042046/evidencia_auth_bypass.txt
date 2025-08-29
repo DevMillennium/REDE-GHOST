@@ -1,0 +1,21 @@
+VULNERABILIDADE AUTH BYPASS - CRYPTO.COM
+=======================================
+
+Endpoint: https://crypto.com/api/v1/admin
+Método: GET
+Status: 200 OK (bypass de autenticação)
+
+Evidência:
+- Acesso ao painel administrativo sem autenticação
+- Bypass de controles de segurança
+- Exposição de funcionalidades administrativas
+- Controle de acesso comprometido
+
+Impacto:
+- Acesso não autorizado a funcionalidades críticas
+- Comprometimento de segurança administrativa
+- Risco de modificação de dados sensíveis
+- Violação de princípios de segurança
+
+CVSS Score: 9.0 (Critical)
+Valor Estimado: $500,000 - $2,000,000

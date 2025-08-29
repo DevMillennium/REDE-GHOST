@@ -1,0 +1,21 @@
+{
+  "domain": "grabpay.com",
+  "total_targets": 2,
+  "vulnerable_targets": 0,
+  "scan_types": [
+    "API Endpoints"
+  ],
+  "ml_predictions": [
+    {
+      "url": "https://grafana.grabpay.com",
+      "predicted_vulnerability": 0.5,
+      "confidence": "medium"
+    },
+    {
+      "url": "https://api.grabpay.com",
+      "predicted_vulnerability": 0.5,
+      "confidence": "medium"
+    }
+  ],
+  "recommendations": []
+}

@@ -1,0 +1,6 @@
+URL: https://api.crypto.com/v2/public/get-trades
+Description: API Pública - Trades
+HTTP Code: 200
+Response Time: 0.350730s
+Response Size: 58 bytes
+Timestamp: 2025-08-29 05:08:49

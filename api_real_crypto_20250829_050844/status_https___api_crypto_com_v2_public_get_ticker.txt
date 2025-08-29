@@ -1,0 +1,6 @@
+URL: https://api.crypto.com/v2/public/get-ticker
+Description: API Pública - Ticker
+HTTP Code: 200
+Response Time: 2.166605s
+Response Size: 138609 bytes
+Timestamp: 2025-08-29 05:08:46

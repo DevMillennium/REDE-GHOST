@@ -1,0 +1,6 @@
+URL: https://api.crypto.com/v2/public/get-instruments
+Description: API Pública - Instruments
+HTTP Code: 404
+Response Time: 0.331120s
+Response Size: 36 bytes
+Timestamp: 2025-08-29 05:08:50

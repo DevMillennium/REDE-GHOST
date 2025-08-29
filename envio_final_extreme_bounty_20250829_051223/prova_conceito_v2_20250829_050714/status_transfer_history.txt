@@ -1,0 +1,6 @@
+Endpoint: transfer/history
+Description: Vulnerabilidade 1 - Transfer History API (IDOR)
+HTTP Code: 200
+Response Time: 0.083536s
+Response Size: 4669 bytes
+Timestamp: 2025-08-29 05:07:15

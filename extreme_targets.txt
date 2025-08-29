@@ -1,0 +1,390 @@
+# 🎯 ALVOS DE VALOR EXTREMO - CRYPTO.COM
+# Foco: $100,000 - $2,000,000 em recompensas
+
+# APIs de Alto Valor (Tier 1 - $40K-$2M)
+https://web.crypto.com
+https://crypto.com/exchange
+https://merchant.crypto.com
+https://developer.crypto.com
+https://developer-api.crypto.com
+https://developer-platform-api.crypto.com
+https://app.mona.co
+https://api.crypto.com
+https://api.mona.co
+
+# APIs de Mobile (Tier 1 - $40K-$2M)
+https://mobile-api.crypto.com
+https://app-api.crypto.com
+https://android-api.crypto.com
+https://ios-api.crypto.com
+
+# APIs de Exchange (Tier 1 - $40K-$2M)
+https://exchange-api.crypto.com
+https://trading-api.crypto.com
+https://market-api.crypto.com
+https://order-api.crypto.com
+https://trade-api.crypto.com
+
+# APIs de Wallet (Tier 1 - $40K-$2M)
+https://wallet-api.crypto.com
+https://vault-api.crypto.com
+https://safe-api.crypto.com
+https://storage-api.crypto.com
+
+# APIs de Transferência (Tier 1 - $40K-$2M)
+https://transfer-api.crypto.com
+https://send-api.crypto.com
+https://withdraw-api.crypto.com
+https://payment-api.crypto.com
+https://transaction-api.crypto.com
+
+# APIs de KYC/AML (Tier 1 - $40K-$2M)
+https://kyc-api.crypto.com
+https://aml-api.crypto.com
+https://verification-api.crypto.com
+https://identity-api.crypto.com
+https://compliance-api.crypto.com
+
+# APIs de Dados Sensíveis (Tier 1 - $40K-$2M)
+https://users-api.crypto.com
+https://accounts-api.crypto.com
+https://customers-api.crypto.com
+https://personal-api.crypto.com
+https://private-api.crypto.com
+https://secret-api.crypto.com
+https://internal-api.crypto.com
+
+# APIs Administrativas (Tier 1 - $40K-$2M)
+https://admin-api.crypto.com
+https://administrator-api.crypto.com
+https://management-api.crypto.com
+https://panel-api.crypto.com
+https://console-api.crypto.com
+https://dashboard-api.crypto.com
+https://control-api.crypto.com
+
+# APIs de Configuração (Tier 1 - $40K-$2M)
+https://settings-api.crypto.com
+https://config-api.crypto.com
+https://system-api.crypto.com
+https://root-api.crypto.com
+https://superuser-api.crypto.com
+https://master-api.crypto.com
+https://owner-api.crypto.com
+https://privileged-api.crypto.com
+
+# APIs de Backup/Restore (Tier 1 - $40K-$2M)
+https://backup-api.crypto.com
+https://restore-api.crypto.com
+https://export-api.crypto.com
+https://import-api.crypto.com
+https://migrate-api.crypto.com
+https://sync-api.crypto.com
+
+# APIs de Monitoramento (Tier 1 - $40K-$2M)
+https://monitor-api.crypto.com
+https://metrics-api.crypto.com
+https://stats-api.crypto.com
+https://analytics-api.crypto.com
+https://report-api.crypto.com
+https://log-api.crypto.com
+
+# APIs de Notificação (Tier 1 - $40K-$2M)
+https://notification-api.crypto.com
+https://alert-api.crypto.com
+https://webhook-api.crypto.com
+https://callback-api.crypto.com
+https://push-api.crypto.com
+https://sms-api.crypto.com
+https://email-api.crypto.com
+
+# APIs de Integração (Tier 1 - $40K-$2M)
+https://integration-api.crypto.com
+https://partner-api.crypto.com
+https://affiliate-api.crypto.com
+https://merchant-api.crypto.com
+https://business-api.crypto.com
+https://enterprise-api.crypto.com
+
+# APIs de Criptografia (Tier 1 - $40K-$2M)
+https://crypto-api.crypto.com
+https://encryption-api.crypto.com
+https://decryption-api.crypto.com
+https://hash-api.crypto.com
+https://signature-api.crypto.com
+https://key-api.crypto.com
+https://token-api.crypto.com
+
+# APIs de Blockchain (Tier 1 - $40K-$2M)
+https://blockchain-api.crypto.com
+https://block-api.crypto.com
+https://chain-api.crypto.com
+https://network-api.crypto.com
+https://node-api.crypto.com
+https://mining-api.crypto.com
+https://staking-api.crypto.com
+
+# APIs de DeFi (Tier 1 - $40K-$2M)
+https://defi-api.crypto.com
+https://yield-api.crypto.com
+https://liquidity-api.crypto.com
+https://pool-api.crypto.com
+https://swap-api.crypto.com
+https://farm-api.crypto.com
+https://vault-api.crypto.com
+
+# APIs de NFT (Tier 1 - $40K-$2M)
+https://nft-api.crypto.com
+https://token-api.crypto.com
+https://collection-api.crypto.com
+https://marketplace-api.crypto.com
+https://auction-api.crypto.com
+https://gallery-api.crypto.com
+
+# APIs de Gaming (Tier 1 - $40K-$2M)
+https://gaming-api.crypto.com
+https://game-api.crypto.com
+https://play-api.crypto.com
+https://reward-api.crypto.com
+https://achievement-api.crypto.com
+https://leaderboard-api.crypto.com
+
+# APIs de Social (Tier 1 - $40K-$2M)
+https://social-api.crypto.com
+https://community-api.crypto.com
+https://forum-api.crypto.com
+https://chat-api.crypto.com
+https://message-api.crypto.com
+https://post-api.crypto.com
+
+# APIs de Educação (Tier 1 - $40K-$2M)
+https://education-api.crypto.com
+https://learn-api.crypto.com
+https://course-api.crypto.com
+https://tutorial-api.crypto.com
+https://guide-api.crypto.com
+https://help-api.crypto.com
+
+# APIs de Suporte (Tier 1 - $40K-$2M)
+https://support-api.crypto.com
+https://help-api.crypto.com
+https://ticket-api.crypto.com
+https://chat-api.crypto.com
+https://contact-api.crypto.com
+https://assist-api.crypto.com
+
+# APIs de Marketing (Tier 1 - $40K-$2M)
+https://marketing-api.crypto.com
+https://campaign-api.crypto.com
+https://promotion-api.crypto.com
+https://bonus-api.crypto.com
+https://reward-api.crypto.com
+https://referral-api.crypto.com
+
+# APIs de Compliance (Tier 1 - $40K-$2M)
+https://compliance-api.crypto.com
+https://regulatory-api.crypto.com
+https://audit-api.crypto.com
+https://report-api.crypto.com
+https://tax-api.crypto.com
+https://legal-api.crypto.com
+
+# APIs de Segurança (Tier 1 - $40K-$2M)
+https://security-api.crypto.com
+https://auth-api.crypto.com
+https://login-api.crypto.com
+https://session-api.crypto.com
+https://permission-api.crypto.com
+https://access-api.crypto.com
+
+# APIs de Performance (Tier 1 - $40K-$2M)
+https://performance-api.crypto.com
+https://speed-api.crypto.com
+https://optimization-api.crypto.com
+https://cache-api.crypto.com
+https://cdn-api.crypto.com
+https://loadbalancer-api.crypto.com
+
+# APIs de Infraestrutura (Tier 1 - $40K-$2M)
+https://infrastructure-api.crypto.com
+https://server-api.crypto.com
+https://database-api.crypto.com
+https://storage-api.crypto.com
+https://network-api.crypto.com
+https://cloud-api.crypto.com
+
+# APIs de Desenvolvimento (Tier 1 - $40K-$2M)
+https://dev-api.crypto.com
+https://development-api.crypto.com
+https://test-api.crypto.com
+https://staging-api.crypto.com
+https://beta-api.crypto.com
+https://alpha-api.crypto.com
+
+# APIs de Produção (Tier 1 - $40K-$2M)
+https://prod-api.crypto.com
+https://production-api.crypto.com
+https://live-api.crypto.com
+https://main-api.crypto.com
+https://primary-api.crypto.com
+https://master-api.crypto.com
+
+# APIs de Backup (Tier 1 - $40K-$2M)
+https://backup-api.crypto.com
+https://secondary-api.crypto.com
+https://replica-api.crypto.com
+https://mirror-api.crypto.com
+https://copy-api.crypto.com
+https://duplicate-api.crypto.com
+
+# APIs de Monitoramento (Tier 1 - $40K-$2M)
+https://monitor-api.crypto.com
+https://watch-api.crypto.com
+https://observe-api.crypto.com
+https://track-api.crypto.com
+https://log-api.crypto.com
+https://alert-api.crypto.com
+
+# APIs de Análise (Tier 1 - $40K-$2M)
+https://analytics-api.crypto.com
+https://analysis-api.crypto.com
+https://insight-api.crypto.com
+https://report-api.crypto.com
+https://dashboard-api.crypto.com
+https://chart-api.crypto.com
+
+# APIs de Dados (Tier 1 - $40K-$2M)
+https://data-api.crypto.com
+https://dataset-api.crypto.com
+https://information-api.crypto.com
+https://content-api.crypto.com
+https://resource-api.crypto.com
+https://asset-api.crypto.com
+
+# APIs de Comunicação (Tier 1 - $40K-$2M)
+https://communication-api.crypto.com
+https://message-api.crypto.com
+https://notification-api.crypto.com
+https://email-api.crypto.com
+https://sms-api.crypto.com
+https://push-api.crypto.com
+
+# APIs de Integração Externa (Tier 1 - $40K-$2M)
+https://external-api.crypto.com
+https://thirdparty-api.crypto.com
+https://vendor-api.crypto.com
+https://partner-api.crypto.com
+https://integration-api.crypto.com
+https://connector-api.crypto.com
+
+# APIs de Microserviços (Tier 1 - $40K-$2M)
+https://microservice-api.crypto.com
+https://service-api.crypto.com
+https://api-gateway.crypto.com
+https://gateway-api.crypto.com
+https://proxy-api.crypto.com
+https://router-api.crypto.com
+
+# APIs de Cache (Tier 1 - $40K-$2M)
+https://cache-api.crypto.com
+https://redis-api.crypto.com
+https://memcached-api.crypto.com
+https://storage-api.crypto.com
+https://memory-api.crypto.com
+https://temp-api.crypto.com
+
+# APIs de Banco de Dados (Tier 1 - $40K-$2M)
+https://database-api.crypto.com
+https://db-api.crypto.com
+https://sql-api.crypto.com
+https://nosql-api.crypto.com
+https://mongodb-api.crypto.com
+https://postgresql-api.crypto.com
+
+# APIs de Busca (Tier 1 - $40K-$2M)
+https://search-api.crypto.com
+https://query-api.crypto.com
+https://index-api.crypto.com
+https://elasticsearch-api.crypto.com
+https://solr-api.crypto.com
+https://lucene-api.crypto.com
+
+# APIs de Upload/Download (Tier 1 - $40K-$2M)
+https://upload-api.crypto.com
+https://download-api.crypto.com
+https://file-api.crypto.com
+https://document-api.crypto.com
+https://media-api.crypto.com
+https://asset-api.crypto.com
+
+# APIs de Processamento (Tier 1 - $40K-$2M)
+https://process-api.crypto.com
+https://compute-api.crypto.com
+https://calculation-api.crypto.com
+https://algorithm-api.crypto.com
+https://function-api.crypto.com
+https://task-api.crypto.com
+
+# APIs de Agendamento (Tier 1 - $40K-$2M)
+https://schedule-api.crypto.com
+https://cron-api.crypto.com
+https://job-api.crypto.com
+https://task-api.crypto.com
+https://work-api.crypto.com
+https://batch-api.crypto.com
+
+# APIs de Eventos (Tier 1 - $40K-$2M)
+https://event-api.crypto.com
+https://webhook-api.crypto.com
+https://callback-api.crypto.com
+https://trigger-api.crypto.com
+https://signal-api.crypto.com
+https://notification-api.crypto.com
+
+# APIs de Streaming (Tier 1 - $40K-$2M)
+https://stream-api.crypto.com
+https://realtime-api.crypto.com
+https://live-api.crypto.com
+https://websocket-api.crypto.com
+https://sse-api.crypto.com
+https://push-api.crypto.com
+
+# APIs de Versionamento (Tier 1 - $40K-$2M)
+https://version-api.crypto.com
+https://v1-api.crypto.com
+https://v2-api.crypto.com
+https://v3-api.crypto.com
+https://v4-api.crypto.com
+https://v5-api.crypto.com
+
+# APIs de Deprecação (Tier 1 - $40K-$2M)
+https://legacy-api.crypto.com
+https://old-api.crypto.com
+https://deprecated-api.crypto.com
+https://archive-api.crypto.com
+https://backup-api.crypto.com
+https://retired-api.crypto.com
+
+# APIs de Teste (Tier 1 - $40K-$2M)
+https://test-api.crypto.com
+https://testing-api.crypto.com
+https://debug-api.crypto.com
+https://dev-api.crypto.com
+https://sandbox-api.crypto.com
+https://mock-api.crypto.com
+
+# APIs de Staging (Tier 1 - $40K-$2M)
+https://staging-api.crypto.com
+https://preprod-api.crypto.com
+https://uat-api.crypto.com
+https://qa-api.crypto.com
+https://beta-api.crypto.com
+https://alpha-api.crypto.com
+
+# APIs de Produção (Tier 1 - $40K-$2M)
+https://prod-api.crypto.com
+https://production-api.crypto.com
+https://live-api.crypto.com
+https://main-api.crypto.com
+https://primary-api.crypto.com
+https://master-api.crypto.com

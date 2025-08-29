@@ -1,0 +1,6 @@
+URL: https://crypto.com/api/v1/public/ticker
+Description: Crypto.com API - Ticker
+HTTP Code: 404
+Response Time: 0.098067s
+Response Size: 394249 bytes
+Timestamp: 2025-08-29 05:08:57

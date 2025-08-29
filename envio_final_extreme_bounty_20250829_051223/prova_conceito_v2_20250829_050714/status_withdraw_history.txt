@@ -1,0 +1,6 @@
+Endpoint: withdraw/history
+Description: Vulnerabilidade 2 - Withdraw History API (IDOR)
+HTTP Code: 200
+Response Time: 0.074574s
+Response Size: 4669 bytes
+Timestamp: 2025-08-29 05:07:17

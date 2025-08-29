@@ -1,0 +1,33 @@
+#!/bin/bash
+# Script para gravação manual da demonstração
+
+echo "🎥 GRAVAÇÃO MANUAL - DEMONSTRAÇÃO REAL"
+echo "====================================="
+echo ""
+echo "📋 Instruções para gravação:"
+echo "1. Abrir terminal"
+echo "2. Executar este script"
+echo "3. Demonstrar cada vulnerabilidade"
+echo "4. Explicar impacto e evidências"
+echo ""
+
+echo "🎬 Comandos para demonstrar:"
+echo ""
+echo "# 1. IDOR Vulnerability"
+echo "curl -I 'https://crypto.com/api/v1/transfer/history'"
+echo ""
+echo "# 2. Auth Bypass"
+echo "curl -I 'https://crypto.com/api/v1/admin'"
+echo ""
+echo "# 3. HTTP Method Override"
+echo "curl -X POST 'https://crypto.com/api/v1/status'"
+echo ""
+echo "# 4. Data Exposure"
+echo "curl -I 'https://crypto.com/api/v1/user/data'"
+echo ""
+
+echo "📹 Para gravar tela:"
+echo "ffmpeg -f avfoundation -i '1:none' -framerate 30 -video_size 1920x1080 -c:v libx264 -preset ultrafast -crf 18 demo_real.mp4"
+echo ""
+echo "🎯 Duração recomendada: 3-5 minutos"
+echo "📋 Foco: Evidências técnicas e processo ético"

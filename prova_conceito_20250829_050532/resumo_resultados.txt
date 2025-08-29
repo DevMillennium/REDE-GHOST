@@ -1,0 +1,22 @@
+PROVA DE CONCEITO - EXTREME BOUNTY CRYPTO.COM
+=============================================
+Data: 29/08/2025 05:05:54
+Diretório: prova_conceito_20250829_050532
+
+ARQUIVOS GERADOS:
+-rw-r--r--    1 thyagomesquita  staff     1 Aug 29 05:05 dados_balance.json
+-rw-r--r--    1 thyagomesquita  staff     1 Aug 29 05:05 dados_orders.json
+-rw-r--r--    1 thyagomesquita  staff     1 Aug 29 05:05 dados_transfer_history.json
+-rw-r--r--    1 thyagomesquita  staff     1 Aug 29 05:05 dados_user_data.json
+-rw-r--r--    1 thyagomesquita  staff     1 Aug 29 05:05 dados_withdraw_history.json
+-rw-r--r--    1 thyagomesquita  staff  1373 Aug 29 05:05 relatorio_executivo.md
+-rw-r--r--    1 thyagomesquita  staff     0 Aug 29 05:05 resumo_resultados.txt
+
+STATUS DOS TESTES:
+dados_balance.json:        1 bytes
+dados_orders.json:        1 bytes
+dados_transfer_history.json:        1 bytes
+dados_user_data.json:        1 bytes
+dados_withdraw_history.json:        1 bytes
+
+PRONTO PARA ENVIO!

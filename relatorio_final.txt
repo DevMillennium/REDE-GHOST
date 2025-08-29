@@ -1,0 +1,12 @@
+Relatório Final - Fri Aug 29 02:01:02 -03 2025
+Domínio: grabpay.com
+
+📈 Estatísticas:
+   - Subdomínios encontrados:      378
+   - URLs ativas:       13
+   - Descobertas de API: 2
+   - Vulnerabilidades críticas: 2
+
+🤖 Insights do Machine Learning:
+   - Registros históricos: 6
+   - Modelo treinado: Não

@@ -1,0 +1,194 @@
+Relatório gerado em: Fri Aug 29 01:13:47 -03 2025
+Domínio: grabpay.com
+
+Vulnerabilidades encontradas:
+
+Análise ML:
+{
+  "domain": "grabpay.com",
+  "subdomains_found": 378,
+  "active_urls": 13,
+  "prioritized_urls": [
+    {
+      "url": "https://cdn-gp01.grabpay.com [\u001b[31m403\u001b[0m] [\u001b[35mAmazon CloudFront,Amazon S3,Amazon Web Services\u001b[0m]",
+      "features": {
+        "url_length": 102,
+        "has_https": 1,
+        "has_api": 0,
+        "has_admin": 0,
+        "has_login": 0,
+        "subdomain_count": 2,
+        "path_depth": 1,
+        "has_parameters": 0,
+        "has_js": 0,
+        "has_forms": 0,
+        "response_time": 0,
+        "status_code": 0
+      },
+      "vulnerability_score": 0.5
+    },
+    {
+      "url": "https://bitbucketmirror01.corp.grabpay.com [\u001b[1;33m503\u001b[0m]",
+      "features": {
+        "url_length": 59,
+        "has_https": 1,
+        "has_api": 0,
+        "has_admin": 0,
+        "has_login": 0,
+        "subdomain_count": 3,
+        "path_depth": 1,
+        "has_parameters": 0,
+        "has_js": 0,
+        "has_forms": 0,
+        "response_time": 0,
+        "status_code": 0
+      },
+      "vulnerability_score": 0.5
+    },
+    {
+      "url": "https://crif.grabpay.com [\u001b[31m403\u001b[0m] [\u001b[36mERROR: The request could not be satisfied\u001b[0m] [\u001b[35mAmazon CloudFront,Amazon Web Services\u001b[0m]",
+      "features": {
+        "url_length": 141,
+        "has_https": 1,
+        "has_api": 0,
+        "has_admin": 0,
+        "has_login": 0,
+        "subdomain_count": 2,
+        "path_depth": 1,
+        "has_parameters": 0,
+        "has_js": 0,
+        "has_forms": 0,
+        "response_time": 0,
+        "status_code": 0
+      },
+      "vulnerability_score": 0.5
+    },
+    {
+      "url": "https://bitbucket-mirror-ext01.corp.grabpay.com [\u001b[1;33m503\u001b[0m]",
+      "features": {
+        "url_length": 64,
+        "has_https": 1,
+        "has_api": 0,
+        "has_admin": 0,
+        "has_login": 0,
+        "subdomain_count": 3,
+        "path_depth": 1,
+        "has_parameters": 0,
+        "has_js": 0,
+        "has_forms": 0,
+        "response_time": 0,
+        "status_code": 0
+      },
+      "vulnerability_score": 0.5
+    },
+    {
+      "url": "https://grafana.grabpay.com [\u001b[31m403\u001b[0m] [\u001b[36mERROR: The request could not be satisfied\u001b[0m] [\u001b[35mAmazon CloudFront,Amazon Web Services\u001b[0m]",
+      "features": {
+        "url_length": 144,
+        "has_https": 1,
+        "has_api": 0,
+        "has_admin": 0,
+        "has_login": 0,
+        "subdomain_count": 2,
+        "path_depth": 1,
+        "has_parameters": 0,
+        "has_js": 0,
+        "has_forms": 0,
+        "response_time": 0,
+        "status_code": 0
+      },
+      "vulnerability_score": 0.5
+    },
+    {
+      "url": "https://verification.grabpay.com [\u001b[31m404\u001b[0m] [\u001b[35mAmazon CloudFront,Amazon Web Services,Envoy\u001b[0m]",
+      "features": {
+        "url_length": 102,
+        "has_https": 1,
+        "has_api": 0,
+        "has_admin": 0,
+        "has_login": 0,
+        "subdomain_count": 2,
+        "path_depth": 1,
+        "has_parameters": 0,
+        "has_js": 0,
+        "has_forms": 0,
+        "response_time": 0,
+        "status_code": 0
+      },
+      "vulnerability_score": 0.5
+    },
+    {
+      "url": "https://opac-vn.grabpay.com [\u001b[31m403\u001b[0m] [\u001b[36mERROR: The request could not be satisfied\u001b[0m] [\u001b[35mAmazon CloudFront,Amazon Web Services\u001b[0m]",
+      "features": {
+        "url_length": 144,
+        "has_https": 1,
+        "has_api": 0,
+        "has_admin": 0,
+        "has_login": 0,
+        "subdomain_count": 2,
+        "path_depth": 1,
+        "has_parameters": 0,
+        "has_js": 0,
+        "has_forms": 0,
+        "response_time": 0,
+        "status_code": 0
+      },
+      "vulnerability_score": 0.5
+    },
+    {
+      "url": "https://opac.grabpay.com [\u001b[31m403\u001b[0m] [\u001b[36mERROR: The request could not be satisfied\u001b[0m] [\u001b[35mAmazon CloudFront,Amazon Web Services\u001b[0m]",
+      "features": {
+        "url_length": 141,
+        "has_https": 1,
+        "has_api": 0,
+        "has_admin": 0,
+        "has_login": 0,
+        "subdomain_count": 2,
+        "path_depth": 1,
+        "has_parameters": 0,
+        "has_js": 0,
+        "has_forms": 0,
+        "response_time": 0,
+        "status_code": 0
+      },
+      "vulnerability_score": 0.5
+    },
+    {
+      "url": "https://api.grabpay.com [\u001b[33m302\u001b[0m] [\u001b[35mAmazon CloudFront,Amazon Web Services,Envoy\u001b[0m]",
+      "features": {
+        "url_length": 93,
+        "has_https": 1,
+        "has_api": 1,
+        "has_admin": 0,
+        "has_login": 0,
+        "subdomain_count": 2,
+        "path_depth": 1,
+        "has_parameters": 0,
+        "has_js": 0,
+        "has_forms": 0,
+        "response_time": 0,
+        "status_code": 0
+      },
+      "vulnerability_score": 0.5
+    },
+    {
+      "url": "https://apigw01.grabpay.com [\u001b[33m302\u001b[0m] [\u001b[35mAmazon CloudFront,Amazon Web Services,Envoy\u001b[0m]",
+      "features": {
+        "url_length": 97,
+        "has_https": 1,
+        "has_api": 1,
+        "has_admin": 0,
+        "has_login": 0,
+        "subdomain_count": 2,
+        "path_depth": 1,
+        "has_parameters": 0,
+        "has_js": 0,
+        "has_forms": 0,
+        "response_time": 0,
+        "status_code": 0
+      },
+      "vulnerability_score": 0.5
+    }
+  ],
+  "vulnerabilities_found": "flag provided but not defined: -json"
+}
