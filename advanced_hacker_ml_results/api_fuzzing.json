@@ -1,0 +1,271 @@
+{
+  "endpoints": [
+    {
+      "method": "POST",
+      "url": "https://crypto.com/api/v1/users",
+      "status": 405,
+      "response_size": 0,
+      "headers": {
+        "Date": "Fri, 29 Aug 2025 11:18:35 GMT",
+        "Content-Length": "0",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Origin": "*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "Set-Cookie": "__cf_bm=IlL0QAYg6k3AZb.9unMVW8ntW0HotpUgi.AiUguHNt4-1756466315-1.0.1.1-BruoYAPX6zCAMuScCVd7wE8HvtFytson_umz0HKFWCZqv_QKgJeYw_r74QGlU.inPoKKHL3IQrFM8MGh57xvUw5sggPcQqWT4dNLVI4fFmM; path=/; expires=Fri, 29-Aug-25 11:48:35 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=fGmut7nQ_wlOxopbOYCn_SLIc_6T7ofm0yJSkGTQYmU-1756466315205-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None, __cf_bm=AeKcdessSCqKkVqP_8eM9v_bIOTCUsggGygmOHf12OE-1756466315-1.0.1.1-me5HWs6nRz7Ax44aImHXftwjPVDEr8XZo5_ORPVQtwelWQV9766yNN930GmR6UQX5f6_57r5dzm3gNwTPOgb1wUnrXpm5tfhq6JpmaxFeSM; path=/; expires=Fri, 29-Aug-25 11:48:35 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=bwaGLy0.PnS7Fwt2chw2KuK2YZYaLMqs.RHN9qCyp5E-1756466315209-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=iac69XQ6YPPS7HEqoHiMmgg65KAwJzre4NVfRm6Pb03sevNgaEgik%2FRBZ0EsHwOBQ7%2BW2gvGzkrEqnS32RJNgQVNUiyaZEI1jRbnMv6k6rNExdpWyWqE4tn%2Bbp%2BOIB%2BIhfPkW9khIeic\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Vary": "Accept-Encoding",
+        "cf-cache-status": "DYNAMIC",
+        "Strict-Transport-Security": "max-age=15552000",
+        "Server": "cloudflare",
+        "CF-RAY": "976ba6059b5f15b5-FOR",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    },
+    {
+      "method": "POST",
+      "url": "https://crypto.com/api/v1/orders",
+      "status": 405,
+      "response_size": 0,
+      "headers": {
+        "Date": "Fri, 29 Aug 2025 11:18:35 GMT",
+        "Content-Length": "0",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Origin": "*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "Set-Cookie": "__cf_bm=FE7ZfCYXglPHA1QnesEhtZj3U0rLt80407tWwIzARak-1756466315-1.0.1.1-vsrLGkR2MR8ymsvXRKiSVMCdaQXkvo0Kn8g4cOkpLmQeKnJloJmDFZzF0dFfjTzsckAXeDaw5slWiV2nOlUmWrvVeqWa8Qi4kVZcdYZmwGE; path=/; expires=Fri, 29-Aug-25 11:48:35 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=JLk9hfDsQzicDlTkaIYAeip05SNoJyZz9CGKoCOtlhA-1756466315537-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None, __cf_bm=lGyla.iMqfzwMMb60q96Ur0zbJRvfwhE7e94T4._UNQ-1756466315-1.0.1.1-zW04tZEf.GJ2PHsDbNtfrOc29oCOCA3JxBKhUBYHq10gN6iw5YXAipnxTYBPptK5pTh1Y.v1fCQOk9u9JrxQUDEMxqCy5X7nf3zXP4D3nuQ; path=/; expires=Fri, 29-Aug-25 11:48:35 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=99CI01BmTmbweZC47W43mxUcZlfnaDzlrl1Q05J0Q8I-1756466315541-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=dqorR05fqFn8SVVXQozmr7wQnm4QqSK2wdkIC077W8QhXryiknVDVsEBT%2Fm9TEox%2BtbslCfYNAFnnsEa8B2uUlVz5Xi6LvtNdjSVZgL9%2BY4lqE5Vj%2BXVH4dib0ywCwo3ur6vBnJBJ%2Fm8\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Vary": "Accept-Encoding",
+        "cf-cache-status": "DYNAMIC",
+        "Strict-Transport-Security": "max-age=15552000",
+        "Server": "cloudflare",
+        "CF-RAY": "976ba607ae1215a9-FOR",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    },
+    {
+      "method": "POST",
+      "url": "https://crypto.com/api/v1/trades",
+      "status": 405,
+      "response_size": 0,
+      "headers": {
+        "Date": "Fri, 29 Aug 2025 11:18:35 GMT",
+        "Content-Length": "0",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Origin": "*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "Set-Cookie": "__cf_bm=khZmSBC6lP0j1wPTSjsvZnyXUMaLusHMNdMu0g7SHFA-1756466315-1.0.1.1-kZH43gA1uFhC4iNuofvFXZ6r9o.SHDDjWGFA..yzT2ltoM7xA9V3nwsArutjEzPojomU30.iwU6GnfK.gOkbjsEAGUdUMcQuPb27CpcmeJc; path=/; expires=Fri, 29-Aug-25 11:48:35 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=TIao665wIaA9kqdAN8U9ZBMGHWbZfoXEld92aMB.W14-1756466315878-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None, __cf_bm=v7qnj0xQtRGhsuTIw6Xc.mrnIbrReSa9gm0FMnwRTSk-1756466315-1.0.1.1-vlf59TGT6i_rg7FjPKZZ7116W_kjbuq8E.y9B7cEKlBnQOa5jXvPtn3BdA83U0.5NTxfqJ0R06OxXYcmYHbJUEcO6Nuyn8q_Zle4Afa5RBY; path=/; expires=Fri, 29-Aug-25 11:48:35 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=U0feKKVVyD6Jll6wc8MgF8ZzWftTiw.eGGUEy8iTNg8-1756466315880-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=jsvYfa2lnoDg1eKZKgRIsHaigefhN5e5N3zEucewmmApR8KNoAzNARMTevoDqUK1Xr4Lq%2FQg2mVESGp%2Bk9wfQWLA7mMlnLgd9bNnUv%2Bf6IvLdQmGHfjPWpvJK5Pt8X%2B6GaPuhXB0FcCw\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Vary": "Accept-Encoding",
+        "cf-cache-status": "DYNAMIC",
+        "Strict-Transport-Security": "max-age=15552000",
+        "Server": "cloudflare",
+        "CF-RAY": "976ba609cd8e15b5-FOR",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    },
+    {
+      "method": "POST",
+      "url": "https://crypto.com/api/v1/balance",
+      "status": 405,
+      "response_size": 0,
+      "headers": {
+        "Date": "Fri, 29 Aug 2025 11:18:36 GMT",
+        "Content-Length": "0",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Origin": "*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "Set-Cookie": "__cf_bm=w65Rlh7f.dTRAyJTZv3IGFoX2ZYe4ACwbXRoe1RDRQU-1756466316-1.0.1.1-wftpCIkrxm_.Y_vD3uJ7xYCRIu62CLwROhcG5qCOjlpQigoF.SUf5DGN6euc3nuF.WW4n4dnjyH.oBiNS9rfKFu66W4axl5a9HEYAlSG_mk; path=/; expires=Fri, 29-Aug-25 11:48:36 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=8Lej6sIIJbZCL06Cq1D6QgKzuo7S7c7wfGWDP6LWCLY-1756466316107-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None, __cf_bm=a9mgSo6yVpEQok5IuAnEB1IrVAuZpkt7ZXwPvzhAs3c-1756466316-1.0.1.1-kR.0nHXFzQpWr84aXTGsP.FjgdhwHmL_mfw1NNKe20pqSVyxFPlWhtgUttirXDFpXItmuhZZCINle4.xNBd2mzMyVbyaDN_uTfRXY0S1tYg; path=/; expires=Fri, 29-Aug-25 11:48:36 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=9hIcuTkYVNYQHQBXq_ltq.8oEhASOG7v0Yu6FXqPywc-1756466316113-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=RVB%2F2cXjvcKdUOruLOnYrZYghUrjIWwwY31CNSFrBkTaJ7uMQR7I85%2Fy7mnHdc8bkHEF4RV3ev55kX%2FLVv0n0JoaIuuhLWNYGFeBxZGe8KFgzgJdrfEzU8LqyqEP0dh95PJjDNSYPZ9w\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Vary": "Accept-Encoding",
+        "cf-cache-status": "DYNAMIC",
+        "Strict-Transport-Security": "max-age=15552000",
+        "Server": "cloudflare",
+        "CF-RAY": "976ba60b68d415b9-FOR",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    },
+    {
+      "method": "POST",
+      "url": "https://crypto.com/api/v1/withdraw",
+      "status": 405,
+      "response_size": 0,
+      "headers": {
+        "Date": "Fri, 29 Aug 2025 11:18:36 GMT",
+        "Content-Length": "0",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Origin": "*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "Set-Cookie": "__cf_bm=oPYxcThazaF8FFuv2GPuNyBgDXlv9p64zScNXu1jyEM-1756466316-1.0.1.1-NKWYxb52imM2nH_qF24Tu52y0wwXNhXV9UV6T9jf6MwlcC.p2wWLCHxh_WG2zi2x9ZJOnpbKlCWPNLfuS72HKOgLkLcIFh5UbZ76eK8jB34; path=/; expires=Fri, 29-Aug-25 11:48:36 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=rfzTw6_7zZj9OPrGxmDfPI1E0bTJgWF7XT7zggxSyAk-1756466316390-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None, __cf_bm=gKKdPr6zPJ6TkVo1_rve5U.YbvcYDofxWcjWhnDF1FU-1756466316-1.0.1.1-euk71gwh6zfRArGDcCfQBMnzWWn1bsY9BUJBHG7ZRBPRpVSwu0VCvVZ43LWy0r9L_ygI2pCb.fc90K9kRRwJkE9QN8thZqaLBM2f6hMNWR8; path=/; expires=Fri, 29-Aug-25 11:48:36 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=_cyOFjyZrqXWwvvKPZbDuGmQIqndleQxEqYENqsBySw-1756466316391-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=ewEh1SECKKEQOxIi1FsRIAwSeQMQTSdktdiMdMXUPm3tpE8RxrHe%2B4oTZzTugZdtc30K28ZFz1x9jVuC%2BioMl59ApwlosnvB6EQyx2ocmpR7gy4q%2FL%2BmPwzAy6iFoBf58HnvnVceh7T3\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Vary": "Accept-Encoding",
+        "cf-cache-status": "DYNAMIC",
+        "Strict-Transport-Security": "max-age=15552000",
+        "Server": "cloudflare",
+        "CF-RAY": "976ba60d092915a9-FOR",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    },
+    {
+      "method": "POST",
+      "url": "https://crypto.com/api/v1/deposit",
+      "status": 405,
+      "response_size": 0,
+      "headers": {
+        "Date": "Fri, 29 Aug 2025 11:18:36 GMT",
+        "Content-Length": "0",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Origin": "*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "Set-Cookie": "__cf_bm=rRk4oJlwF6cfCnUW47TSmLLjfD3nUE4yWvHBstoC0qQ-1756466316-1.0.1.1-stJ9PlN1nYOUr_OI25D_WvzXhi0.U1O.yRyMZdYor0mZ5w4TwtqeNHdAmirwLgDBwkfKBTdhwuYFCLXrHUm2M1agGRva7.r8mir5iYoA5IY; path=/; expires=Fri, 29-Aug-25 11:48:36 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=owMMBCRoByRWNiUda1x0zsNNGaTBBdhIH1Uls9Wghyo-1756466316561-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None, __cf_bm=F5sbiUR9Q9FLNkxBmwXdHjaVAIDryo6X7YqH5KW1O.Y-1756466316-1.0.1.1-pTttm72Ml7CSk3LBAI82IRO_kpxzlgXd7PkAE8a.ef2wX6zx9dIh8zaEfxyPLpfdp9.417AlHIuAMn4S93l.VZXfVfcaLwqyzZLWiLmneq0; path=/; expires=Fri, 29-Aug-25 11:48:36 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=bNVxhrd6OsmB8VzzVBMPyyQwfXa9CcnhCcK3So5s.Uc-1756466316563-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=lWXwQhvgsC%2FtfFGJLf%2B9U%2FsY5QyE5gPTTd3rdOdXzKlfw34ZoPrYaz1mt%2FsxZ0%2FWLSOh9RQ%2FlACoaS0EO6MxTjeLxtrxCOyEv0rkLUyLHknibbygN%2FYnE9ebgoiSN%2FIkcr3JaOzM7N1S\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Vary": "Accept-Encoding",
+        "cf-cache-status": "DYNAMIC",
+        "Strict-Transport-Security": "max-age=15552000",
+        "Server": "cloudflare",
+        "CF-RAY": "976ba60e4a4215b9-FOR",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    },
+    {
+      "method": "POST",
+      "url": "https://crypto.com/api/v1/transactions",
+      "status": 405,
+      "response_size": 0,
+      "headers": {
+        "Date": "Fri, 29 Aug 2025 11:18:36 GMT",
+        "Content-Length": "0",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Origin": "*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "Set-Cookie": "__cf_bm=tw0lejdEFfEy7wGx5q7L88yhOoe00uCeZJN7dezOxDM-1756466316-1.0.1.1-6s4gXXRe4UYQS1JcnviWDf4zS_v3iry2EMNFUJpMU0MSENzRdot_RyhwTiD.KCgsQ7lq5QFw7z5_dCuqLVTUxyiv6Npe02cud.uIw7egL1E; path=/; expires=Fri, 29-Aug-25 11:48:36 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=P3U6xEnLmKTxvK1X5frby77MRmAnwE6LyWpefOPJyRg-1756466316780-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None, __cf_bm=yaNcta942ndrxnsGs33LL0FzruU8EUR1t4BafBHKC2M-1756466316-1.0.1.1-SRrJPy1f6X_AgHTYXSUWQ.5hfQJXO8Yavj_W3nKeb.UQO8T4xntZ1ttGmKBgiqFSzJvN4ut8qET2JTdnED3BMWrGPAsNOn61sPBQ_t.vqAs; path=/; expires=Fri, 29-Aug-25 11:48:36 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=M76mUpP5YzfO42xci4KX_hMGiTUL0gqurG1gktzqaoU-1756466316782-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=gW2nxCupXTbqDlMxVT35XrmsAO%2BB1zAvW2%2BbXfLf8aBYhu179FMS63ngDte99XvKbD2w2jTy8auHBEaZ8criIGGMeFnq8GcKjAQxQ5tVkebQozNp9%2BoQU4fKX3AUL3lFDcJcqKN7BNBY\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Vary": "Accept-Encoding",
+        "cf-cache-status": "DYNAMIC",
+        "Strict-Transport-Security": "max-age=15552000",
+        "Server": "cloudflare",
+        "CF-RAY": "976ba60f7a4615a9-FOR",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    },
+    {
+      "method": "POST",
+      "url": "https://crypto.com/api/v1/account",
+      "status": 405,
+      "response_size": 0,
+      "headers": {
+        "Date": "Fri, 29 Aug 2025 11:18:36 GMT",
+        "Content-Length": "0",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Origin": "*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "Set-Cookie": "__cf_bm=6xpl0mlyc5C_WprTjHfcviTW88n4bOcTMlzmrAHb6WE-1756466316-1.0.1.1-6pVBzP.lbo8qo2ZFI_jGFDd_9DNnv86iaDiZacp7OgbHw4RtDnYnAblZihrwEtnHSslti0fCUHWbfjORGXnAU99tCHzzTlnqtz5Ybon6f3E; path=/; expires=Fri, 29-Aug-25 11:48:36 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=yzrNfWa1ndNmEYA3eXzqBNL8lGVA4SXKcb25tynmHkM-1756466316987-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None, __cf_bm=9Uy4cS2.avWQS28HcVpNVz6jpRo23k9GYzNoA0Dv75o-1756466316-1.0.1.1-_MgEMMD5RopOZSlgmKpIE0cPB5XuPGBg4qZSOwt.dOrfKaBTLdlzJ_BVFKHaU9pFDLky3FifVGafyfVvBdu.AvqvSzBlckwPDUq2sDTQEoY; path=/; expires=Fri, 29-Aug-25 11:48:36 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=7DvWRcCs2_BX96V7Tyik7KMnDvAddsbvjQr1hR2Tb6E-1756466316990-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=DHHY2z3TuxbCcyMffMCLtCEh5IP0%2B1YbIYp1RQ82fF62yHjN0XM2D7lMd1VqB1Cihg2YVNWt2WV3%2Bfy2DPV0jHAtYdf80V8HjnawmLkyOhGNV1IYtXcX27DNX1otXjHq649lueR3x%2Fcz\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Vary": "Accept-Encoding",
+        "cf-cache-status": "DYNAMIC",
+        "Strict-Transport-Security": "max-age=15552000",
+        "Server": "cloudflare",
+        "CF-RAY": "976ba610cad915a9-FOR",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    },
+    {
+      "method": "POST",
+      "url": "https://crypto.com/api/v1/settings",
+      "status": 405,
+      "response_size": 0,
+      "headers": {
+        "Date": "Fri, 29 Aug 2025 11:18:37 GMT",
+        "Content-Length": "0",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Origin": "*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "Set-Cookie": "__cf_bm=iin3huUaHEcU20MKNLncyf8NCXjguFlXoeUnCxZ9jwg-1756466317-1.0.1.1-G0J1WZVrZpmPtcaaTUXUxIv_i3w2AehKodlzQQFi6AA_5cbz5R7IB5g3iR1AN9Q27uh1d6ib_tzp0meWZ0a2_5J_5s2oQbGZ8Mvdl4fDB3Q; path=/; expires=Fri, 29-Aug-25 11:48:37 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=GS.H6cGKCufsVSLBcRJ9xSIeNQ0awL_i9Aat8sIuf2s-1756466317208-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None, __cf_bm=7INS84syJl8fjJEJ6PcZbCZTsE4RH.c2ROJGJCSQcB4-1756466317-1.0.1.1-glhqnDU82kzPqjf8KAqIME5xZKxu7G3lQVHno5WSgd6vGBLUtgLTebM6gnEu233pssRZd7lg0w803sGB1px.5l6d3PnmIfwW7ReM53PE05I; path=/; expires=Fri, 29-Aug-25 11:48:37 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=agp_gDHbBfjgRwgMfJeLGdYv_4KledaRMFajbTh7ago-1756466317211-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=pvqG1Y9cl%2FSsnzdCDru154HGjIGbn2I8cvEy4Y6grJB4t7jbOy6qnKgRzRahxMNYhaczWBDKjlFUOzav6o4Q8tXm%2FUk%2FoY630TM5LdH%2BvULsMO%2BmYGc%2FxuwSmRkU%2B9QxOPJ1x39KSR5F\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Vary": "Accept-Encoding",
+        "cf-cache-status": "DYNAMIC",
+        "Strict-Transport-Security": "max-age=15552000",
+        "Server": "cloudflare",
+        "CF-RAY": "976ba6125caa15b9-FOR",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    },
+    {
+      "method": "POST",
+      "url": "https://crypto.com/api/v1/security",
+      "status": 405,
+      "response_size": 0,
+      "headers": {
+        "Date": "Fri, 29 Aug 2025 11:18:37 GMT",
+        "Content-Length": "0",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Origin": "*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "Set-Cookie": "__cf_bm=ZFJfifXJBIPIK2mDKE37kcQdOnXGnYWjpsKUGFBZhqQ-1756466317-1.0.1.1-ZMseWpCyctVeBjt546SE_WxKBhIJ2H.lrHQAFK6akj1ru0WeL29rXV813Hvh6.rQgs7ZmE2pvMQPAjPIjt9BC3dk7c7V5uCmJDYn63VS5Ng; path=/; expires=Fri, 29-Aug-25 11:48:37 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=1BPsQ4DmkzMzwnIQfEZnV5SeyHZTBtTzGbm7yo36KYw-1756466317486-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None, __cf_bm=47HkWV.obiUUW1uM8mYaSXfRmDxHHTafmVSpDEpo.vY-1756466317-1.0.1.1-Nug_W_mOx4MXInyesfd_kvkeTh9v3mITS6JaYhlBmzba_auSb.SJkHUBm.tFBlqEbzYv52lWbz6ajutzXY5JZRvavwVQgPYHkEdghObGIis; path=/; expires=Fri, 29-Aug-25 11:48:37 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=M2lR76QDbQ5z48i8WkqO32GSho.NGHfgdt9WooQ7tuo-1756466317489-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=VSISB6UclVkWy9EvpiPPPjow9KoL8cEw%2F1u%2FsKEcbA7V7wzih6CtPfVKFtG7E%2FnBkhrkqAR2ik%2B8%2B1ZVibnAFIqGoxY3%2B2CcACk81%2BI6Y0mRI1AgsGlS8%2Bf2jveP8p1lDLd27tfmnKca\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Vary": "Accept-Encoding",
+        "cf-cache-status": "DYNAMIC",
+        "Strict-Transport-Security": "max-age=15552000",
+        "Server": "cloudflare",
+        "CF-RAY": "976ba6137bf115a9-FOR",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    },
+    {
+      "method": "POST",
+      "url": "https://crypto.com/api/v1/notifications",
+      "status": 405,
+      "response_size": 0,
+      "headers": {
+        "Date": "Fri, 29 Aug 2025 11:18:37 GMT",
+        "Content-Length": "0",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Origin": "*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "Set-Cookie": "__cf_bm=uDHgGFwjAByzLtVzZaAUeFNk7VGXkVjZgRyi0qSm6ts-1756466317-1.0.1.1-RTuD6qH_ISjFELsqoqiJzy3bZiEnRdZkcxpm3VhuENhtU2It1U3MyiYb2LYOgfP.WKdUYPyHg5Rg6RPykyQnShc2B5qjP4VBUQCvi0SE1nc; path=/; expires=Fri, 29-Aug-25 11:48:37 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=cch38i700ple1hW_4ItrZ_dWoO3KsET_YHJo4NyxWd8-1756466317713-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None, __cf_bm=57B7ixjwAJE0rgpsEYv5OiKMMfnqHA_mF6Qjc6FiKJE-1756466317-1.0.1.1-.1SW0DbwikJfKnaSuUU5hB8xZOy5gQYgqJyHLF_tSV8cbavAfUtdcdQTeVQFEFxgZsX6SZ_RNgWM6O80QNuEBqLff_oPDpHp2Nh2Dn11MqU; path=/; expires=Fri, 29-Aug-25 11:48:37 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=Ob.5RlmONyFICX6RupRKquWW0OG606h0UQ9pJ5JQiDk-1756466317717-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=L1c%2BaHdR18XJf90EtkE3i9Sk77STq1GZDL2Q0YBgS4dj4lgwgBNP%2FhU5zFnZ1L1bqWNOhSuqTulDDAyBOxKdUIXdGAboVXt0Mqisx8V5r11C%2BI8xr0jNvXTJz2uyXfMOOcs2gagk7kDf\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Vary": "Accept-Encoding",
+        "cf-cache-status": "DYNAMIC",
+        "Strict-Transport-Security": "max-age=15552000",
+        "Server": "cloudflare",
+        "CF-RAY": "976ba6158ea415b9-FOR",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    },
+    {
+      "method": "POST",
+      "url": "https://crypto.com/api/v1/history",
+      "status": 405,
+      "response_size": 0,
+      "headers": {
+        "Date": "Fri, 29 Aug 2025 11:18:37 GMT",
+        "Content-Length": "0",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Origin": "*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "Set-Cookie": "__cf_bm=89wscpkxElseQJgUTNFjtRiukbXsFfGXi3dGpPX3YxY-1756466317-1.0.1.1-7GJkoM0iFm85YdwZ74i1jtl4BQnGpKm2iNBik4wij9Gftg9V1p7gpnWTZxYlQF8De2AJ3ljs.OtJIyuYSUsacj0i.R9ZOuWaM96VMv.MoD4; path=/; expires=Fri, 29-Aug-25 11:48:37 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=618VHBPnchZRh3CTcc5dYLETaHnSanFNz2_OG7wFAFM-1756466317940-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None, __cf_bm=MIUHaFQtVWihFvbeX5mRoCUSfzU8J6cg3kXWEGGpaZM-1756466317-1.0.1.1-NJtT1J9vW1y4e_1vmuXITkba8TGSHQ4EuIAOgM.zJYho9lTIIncuwsPMjOgLbCvkElGfMXJ5eXJb.WhLNbwXHp1y4cVimp5ssl7t2cgNc9s; path=/; expires=Fri, 29-Aug-25 11:48:37 GMT; domain=.crypto.com; HttpOnly; Secure; SameSite=None, _cfuvid=KhScPSjyrrNh0tO5hO_omQWy2E9XGgXVmG9614irWRk-1756466317942-0.0.1.1-604800000; path=/; domain=.crypto.com; HttpOnly; Secure; SameSite=None",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=6QkT0TqWY6BV5lA%2BNGP2u8t0dgV6RyZoMtrsrUCF89vsq5CsfRHJnVP4gdH1RbRbBuHV8uReanCRMqmgHt%2BSUXpPLAyareBuesEUKfQxs1lYfjVLteXaXA%2BjTGlARw%2F5g7vqwMY%2FDB6w\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Vary": "Accept-Encoding",
+        "cf-cache-status": "DYNAMIC",
+        "Strict-Transport-Security": "max-age=15552000",
+        "Server": "cloudflare",
+        "CF-RAY": "976ba6169bfd15b5-FOR",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    }
+  ],
+  "vulnerabilities": [],
+  "rate_limits": {},
+  "authentication": {}
+}

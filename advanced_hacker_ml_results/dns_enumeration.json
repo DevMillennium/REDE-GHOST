@@ -1,0 +1,73 @@
+{
+  "a_records": [
+    "104.19.222.17",
+    "104.19.223.17"
+  ],
+  "mx_records": [
+    "5 mxa-00543801.gslb.pphosted.com.",
+    "5 mxb-00543801.gslb.pphosted.com.",
+    "10 aspmx.l.google.com.",
+    "50 alt1.aspmx.l.google.com.",
+    "50 alt2.aspmx.l.google.com.",
+    "100 aspmx2.googlemail.com.",
+    "100 aspmx3.googlemail.com."
+  ],
+  "ns_records": [
+    "chad.ns.cloudflare.com.",
+    "sima.ns.cloudflare.com."
+  ],
+  "txt_records": [
+    "\"MS=ms89782890\"",
+    "\"tverrblc66rfaf718t8nkv3ska\"",
+    "\"_r7ph0jpxjinr0eiyfj2rnxb54691eyc\"",
+    "\"_rj7cydrznqqclu1nvwivn7ci3u67pup\"",
+    "\"_x4vbsuduc7he5rma9yk4jq187rqtpqo\"",
+    "\"sdzzsstffjsvrm1tl6w3vzjhnwnk7w6x\"",
+    "\"886cc7c2-4930-4e6c-82f7-b749a331f6bf\"",
+    "\"apple-domain-verification=k42cyDihDFgZyDji\"",
+    "\"status-page-domain-verification=71jf0xbkm9dv\"",
+    "\"docusign=44e85aef-c293-4280-a57e-c6805015f751\"",
+    "\"docker-verification=91d288c2-871b-4e61-ad9b-17dc7a66dded\"",
+    "\"shopify-verification-code=3qnHrrZ3HBGVPKTMpMgTOja8jUB3oj\"",
+    "\"miro-verification=57041690cd985a8c994e4fc960e73460e844a257\"",
+    "\"mongodb-site-verification=3dYblW5pflsGhK9sIKXE02aRNButG7TG\"",
+    "\"segment-site-verification=ymbSTvWR2lTKLIR4Cxtyv1bEQz5ShY9J\"",
+    "\"cursor-domain-verification-axv2zp=mYKLERga3bfWGVc9QKs4zFEH1\"",
+    "\"facebook-domain-verification=598suasmwyal84kh3gglgawu4kp26h\"",
+    "\"facebook-domain-verification=8y8dsk7b387u8fdzhwd38r7918jd61\"",
+    "\"mixpanel-domain-verify=c76c83bd-b6f1-42d9-a0fc-b9046f981edb\"",
+    "\"teamviewer-sso-verification=3c92f68977df46f8a836faf3dee19b1c\"",
+    "\"slack-domain-verification=3t9FUgZ4ZU1fSFKsi6RSvcHMatYSJsZ5n6zIQYPT\"",
+    "\"google-site-verification=0BkiWmFJ3j6n9dB155uT7bjYG2W-SvIjaW43B2nVlic\"",
+    "\"google-site-verification=I7WDPOWEyGgthDtKQo87fedNKpc0HBvj63qimMVfvQU\"",
+    "\"google-site-verification=PCetuilY5Boe-estav7CPomAMy-r1Itp_pkS_w7zlb8\"",
+    "\"google-site-verification=QBNOiaBV-QoDHr_zovE1c1GTZnj4LS0dvSp0LktqXjY\"",
+    "\"google-site-verification=UmBlyd162v42XnvTlkcyJCcsFVFzbZP1xlqeAF1QrYY\"",
+    "\"google-site-verification=ZsldpD3RCgz2ntLBhPvWKAsL5uFtgUcxNuP5U0HDNe8\"",
+    "\"apple-domain-verification=gkrEgGUVeHhuHMMruqzgVlhai0KyQuU8fFjhDCxRBZg\"",
+    "\"notion-domain-verification=FDuhhiLdG51uQQ069lihmtNg7812kZsCNV3zrF8Trap\"",
+    "\"box-domain-verification=bd7e193ce1d8807fc0c92872c1d8ebab1fc8207e9cddd5e256\"",
+    "\"box-domain-verification=bd7e193ce1d8807fc0c92872c1d8ebab1fc8207e9cddd5e2562279f68fc6a0d4\"",
+    "\"adobe-idp-site-verification=d1d24ca7de8f48eabcb6db556f51aeb77f354775e863452fee8f6d0dc4e9ba50\"",
+    "\"atlassian-domain-verification=mPIKsb4ANOnJdLnDcm5/XNWhVwAf77WKi84paGU6D1gpB2lKTIanMUpNHQfgQn/A\"",
+    "\"v=spf1 mx ip4:13.228.3.214/32 ip4:166.78.71.191/32 include:sendgrid.net include:_spf.google.com include:_spf.atlassian.net include:spf-00543801.pphosted.com include:amazonses.com a include:_spf.salesforce.com -all\""
+  ],
+  "subdomains": [
+    {
+      "subdomain": "api.crypto.com",
+      "ip": "104.19.222.17"
+    },
+    {
+      "subdomain": "www.crypto.com",
+      "ip": "104.19.222.17"
+    },
+    {
+      "subdomain": "blog.crypto.com",
+      "ip": "104.19.222.17"
+    },
+    {
+      "subdomain": "static.crypto.com",
+      "ip": "104.19.222.17"
+    }
+  ]
+}

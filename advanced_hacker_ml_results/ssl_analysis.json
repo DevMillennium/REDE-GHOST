@@ -1,0 +1,26 @@
+{
+  "subject": {
+    "commonName": "crypto.com"
+  },
+  "issuer": {
+    "countryName": "US",
+    "organizationName": "Google Trust Services",
+    "commonName": "WE1"
+  },
+  "version": 3,
+  "serial_number": "DC16467D1098992A0EA04F43FAC138C9",
+  "not_before": "Aug  7 12:16:03 2025 GMT",
+  "not_after": "Nov  5 13:15:58 2025 GMT",
+  "san": [
+    [
+      "DNS",
+      "crypto.com"
+    ]
+  ],
+  "cipher": [
+    "TLS_AES_256_GCM_SHA384",
+    "TLSv1.3",
+    256
+  ],
+  "protocol": "TLSv1.3"
+}

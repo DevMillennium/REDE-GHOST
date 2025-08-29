@@ -1,0 +1,24 @@
+{
+  "target": "crypto.com",
+  "ports": [
+    80,
+    443,
+    22,
+    21,
+    25,
+    53
+  ],
+  "services": [
+    "http",
+    "https",
+    "ssh",
+    "ftp",
+    "smtp",
+    "dns"
+  ],
+  "vulnerabilities": [
+    "CVE-2021-44228",
+    "CVE-2021-45046"
+  ],
+  "timestamp": "2025-08-29T08:18:32.038443"
+}

