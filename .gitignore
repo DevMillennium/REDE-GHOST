@@ -1,0 +1,27 @@
+# Repositórios embutidos
+ag.133-autmt/
+jwt_tool/
+nuclei-templates/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de configuração local
+.env
+.env.local
+
+# Cache
+.cache/
+*.cache
+
+# Arquivos de backup
+*.bak
+*.backup
