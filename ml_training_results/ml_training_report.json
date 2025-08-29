@@ -1,0 +1,113 @@
+{
+  "timestamp": "2025-08-29T08:37:35.498175",
+  "training_summary": {
+    "total_samples": 1000,
+    "models_trained": 5,
+    "features_used": 20,
+    "critical_vulnerabilities": 978,
+    "avg_risk_score": 2.187386776044059
+  },
+  "model_performance": {
+    "vulnerability_detector": {
+      "accuracy": 1.0,
+      "feature_importance": {
+        "cvss_score": 0.1305333924972024,
+        "severity_level": 0.03182789250252979,
+        "exploitability": 0.05243508083810096,
+        "impact": 0.051362458502099466,
+        "has_exploit": 0.009849018904993824,
+        "is_public": 0.016301351716689328,
+        "response_time": 0.07410935460900502,
+        "request_size": 0.07330356701231888,
+        "error_rate": 0.047770639096560645,
+        "authentication_required": 0.006658507135659059,
+        "rate_limited": 0.0060032773316504185,
+        "ssl_enabled": 0.003527711172215883,
+        "weak_cipher": 0.016080345344359554,
+        "expired_cert": 0.0034099376277682537,
+        "subdomain_count": 0.031216581212535108,
+        "api_endpoints": 0.07774228584343762,
+        "sql_injection_attempts": 0.16861017579881188,
+        "xss_attempts": 0.02671104574847083,
+        "csrf_attempts": 0.05342008574146315,
+        "auth_bypass_attempts": 0.11912729136412797
+      }
+    },
+    "risk_analyzer": {
+      "r2": 0.9986482308551082,
+      "mae": 0.02754148843341799,
+      "feature_importance": {
+        "cvss_score": 0.904134335985247,
+        "severity_level": 0.06450470274537984,
+        "exploitability": 0.0019288214092522506,
+        "impact": 0.0015752384200200646,
+        "has_exploit": 0.0,
+        "is_public": 0.0,
+        "response_time": 1.0918510989977682e-05,
+        "request_size": 2.533072219909042e-05,
+        "error_rate": 9.46101058087047e-06,
+        "authentication_required": 0.0,
+        "rate_limited": 3.2617546482942034e-06,
+        "ssl_enabled": 0.0,
+        "weak_cipher": 1.2456495865835943e-05,
+        "expired_cert": 0.0,
+        "subdomain_count": 3.193285937012393e-06,
+        "api_endpoints": 5.827294905868545e-06,
+        "sql_injection_attempts": 0.017626853125749114,
+        "xss_attempts": 3.2893366496321e-06,
+        "csrf_attempts": 2.2133268144619874e-05,
+        "auth_bypass_attempts": 0.01013417663443084
+      }
+    },
+    "anomaly_detector": {
+      "anomalies_detected": 0,
+      "avg_anomaly_score": 0.05189081069185751
+    },
+    "clustering": {
+      "clusters_identified": 5,
+      "cluster_distribution": {
+        "1": 372,
+        "2": 213,
+        "4": 177,
+        "0": 151,
+        "3": 87
+      }
+    },
+    "pca": {
+      "variance_explained": 0.3002872309667963,
+      "components": 5
+    }
+  },
+  "predictions_summary": {
+    "high_risk_predictions": 978,
+    "anomalies_detected": 0,
+    "clusters_identified": 5
+  },
+  "recommendations": [
+    {
+      "type": "security",
+      "priority": "critical",
+      "description": "ML detectou 100.0% de precis\u00e3o na detec\u00e7\u00e3o de vulnerabilidades",
+      "action": "Implementar modelo em produ\u00e7\u00e3o para detec\u00e7\u00e3o autom\u00e1tica"
+    },
+    {
+      "type": "monitoring",
+      "priority": "high",
+      "description": "ML identificou 0 padr\u00f5es an\u00f4malos",
+      "action": "Configurar alertas autom\u00e1ticos para anomalias"
+    },
+    {
+      "type": "analysis",
+      "priority": "medium",
+      "description": "ML identificou 5 grupos de comportamento",
+      "action": "Analisar padr\u00f5es por cluster para otimiza\u00e7\u00e3o"
+    }
+  ],
+  "next_steps": [
+    "Deploy do modelo em ambiente de produ\u00e7\u00e3o",
+    "Configurar monitoramento cont\u00ednuo",
+    "Integrar com ferramentas de hacker",
+    "Expandir para outros tipos de vulnerabilidade",
+    "Otimizar thresholds baseado em dados reais"
+  ]
+}
